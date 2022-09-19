@@ -1,0 +1,19 @@
+@import "./common/normalize";
+@import "./common/fonts";
+@import "./common/reset";
+@import "./common/container";
+@import "./common/pagination";
+
+@import "./variables/fonts";
+@import "./variables/colors";
+
+
+body {
+    overflow-x: hidden;
+    margin-right: calc(-1*(100vw - 100%));
+    background-color: $color-bg;
+
+    color: $color-black;
+    font-size: 16px;
+    font-family: $ff-regular;
+}

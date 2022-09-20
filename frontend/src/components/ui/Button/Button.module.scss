@@ -1,0 +1,162 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.button {
+    font-size: 16px;
+    font-family: $ff-medium;
+    position: relative;
+    overflow: hidden;
+
+    padding: 0.8rem 2rem;
+    border: 1px solid transparent;
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s, transform 0.3s;
+
+    &:hover {
+        color: $color-black;
+        background-color: $color-main;
+    }
+
+    &:active {
+        transform: scale(0.9);
+    }
+}
+
+.disabled {
+    transition: none;
+
+    &:active {
+        transform: scale(1) !important;
+    }
+}
+
+.wave {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+
+    width: 5px;
+    height: 5px;
+
+    border-radius: 100%;
+    transform: scale(0);
+    background: rgba(255, 255, 255, .4);
+
+    animation: wave-animation 1.3s;
+}
+
+// colors
+
+.main {
+    color: $color-black;
+    background-color: $color-main;
+
+    &:hover {
+        background-color: $color-dark-main;
+    }
+}
+
+.black {
+    color: $color-white;
+    background-color: $color-black;
+}
+
+.green {
+    color: $color-white;
+    background-color: $color-green;
+
+    &:hover {
+        color: $color-white;
+        background-color: $color-dark-green;
+    }
+}
+
+.transparent {
+    color: $color-gray;
+    background-color: transparent;
+    border-color: $color-light-gray;
+
+    &:hover {
+        border-color: $color-main;
+    }
+}
+
+.dark-tab {
+    color: $color-gray;
+    background-color: transparent;
+    border-color: $color-light-gray;
+
+    font-family: $ff-regular;
+
+    &:hover {
+        color: $color-white;
+        border-color: $color-light-black;
+        background-color: $color-light-black;
+    }
+}
+
+// disable
+
+.main.disabled {
+    &:hover {
+        color: $color-black;
+        background-color: $color-main;
+    }
+}
+
+.black.disabled {
+    &:hover {
+        color: $color-white;
+        background-color: $color-black;
+    }
+}
+
+.green.disabled {
+    &:hover {
+        color: $color-white;
+        background-color: $color-green;
+    }
+}
+
+.transparent.disabled {
+    &:hover {
+        color: $color-gray;
+        background-color: transparent;
+        border-color: $color-light-gray;
+    }
+}
+
+.dark-tab.disabled {
+    &:hover {
+        color: $color-gray;
+        background-color: transparent;
+        border-color: $color-light-gray;
+    }
+}
+
+// border-type
+
+.default {
+    border-radius: 30px;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.none {
+    border: 1px solid transparent;
+}
+
+// animation
+
+@keyframes wave-animation {
+    from {
+        opacity: 1;
+        transform: scale(0);
+    }
+
+    to {
+        transform: scale(70);
+        opacity: 0;
+    }
+}

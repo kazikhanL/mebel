@@ -1,0 +1,88 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+
+.link {
+    font-size: 16px;
+    font-family: $ff-medium;
+
+    display: inline-block;
+
+    padding: 0.8rem 2rem;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s, transform 0.3s;
+
+    &:hover {
+        color: $color-black;
+        background-color: $color-main;
+    }
+
+    &:active {
+        transform: scale(0.9);
+    }
+}
+
+// colors
+
+.main {
+    color: $color-black;
+    background-color: $color-main;
+
+    &:hover {
+        background-color: $color-dark-main;
+    }
+}
+
+.black {
+    color: $color-white;
+    background-color: $color-black;
+}
+
+.green {
+    color: $color-white;
+    background-color: $color-green;
+
+    &:hover {
+        color: $color-white;
+        background-color: $color-dark-green;
+    }
+}
+
+.transparent {
+    color: $color-gray;
+    background-color: transparent;
+    border-color: $color-light-gray;
+
+    &:hover {
+        border-color: $color-main;
+    }
+}
+
+.dark-tab {
+    color: $color-gray;
+    background-color: transparent;
+    border-color: $color-light-gray;
+
+    font-family: $ff-regular;
+
+    &:hover {
+        color: $color-white;
+        border-color: $color-light-black;
+        background-color: $color-light-black;
+    }
+}
+
+// border-type
+
+.default {
+    border-radius: 30px;
+}
+
+.round {
+    border-radius: 50%;
+}
+
+.none {
+    border: 1px solid transparent;
+}

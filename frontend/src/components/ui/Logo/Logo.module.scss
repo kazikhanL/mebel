@@ -1,0 +1,45 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.wrapper {
+    padding: 13px;
+    padding-bottom: 20px;
+    max-width: 173px;
+    background-color: $color-white;
+    clip-path: polygon(0% 0%, 100% 0, 100% 100%, 50% 84%, 0% 100%);
+
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    a {
+        position: absolute;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        z-index: 10;
+
+        opacity: 0;
+        font-size: 0;
+        display: block;
+    }
+}
+
+.text {
+    span {
+        display: block;
+
+        &:first-child {
+            color: $color-black;
+            font-family: $ff-bold;
+            font-size: 21px;
+        }
+
+        &:last-child {
+            color: $color-gray;
+            font-family: $ff-medium;
+        }
+    }
+}

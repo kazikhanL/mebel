@@ -1,0 +1,118 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.card {
+    position: relative;
+
+    padding: 30px 20px;
+    border-radius: 20px;
+    min-height: 100%;
+
+    h2 {
+        font-size: 24px;
+    }
+
+    p {
+        margin-top: 15px;
+        line-height: 22px;
+    }
+}
+
+.back {
+    position: absolute;
+    top: 40px;
+    left: 25px;
+    z-index: -1;
+
+    min-width: 100%;
+    min-height: 100%;
+    border-radius: 20px;
+}
+
+.tag {
+    position: absolute;
+    top: -35px;
+    left: 30px;
+}
+
+.main {
+    background: linear-gradient(90deg, #FAE5B1 6.11%, rgba(245, 243, 238, 0) 91.1%);
+
+    .back {
+        background: linear-gradient(89.8deg, #E7DABB 6.23%, #F5F3EE 103.8%, #F5F3EE 103.8%);
+    }
+
+    h2 {
+        color: #C0A767;
+    }
+}
+
+.ligth-green {
+    background: linear-gradient(90deg, #D3E9D2 6.11%, rgba(245, 243, 238, 0) 91.1%);
+
+    .back {
+        background: linear-gradient(89.99deg, #C4E4C3 11.03%, #F5F3EE 100.02%);
+    }
+
+    h2 {
+        color: #679A65;
+    }
+}
+
+.purple {
+    background: linear-gradient(90deg, #CFD5E8 6.11%, rgba(245, 243, 238, 0) 91.1%);
+
+    .back {
+        background: linear-gradient(89.99deg, #BBC2DD 11.03%, #F5F3EE 100.02%);
+    }
+
+    h2 {
+        color: #717EAC;
+    }
+}
+
+
+@media (max-width: 1124px) {
+    .card {
+        h2 {
+            font-size: 22px;
+        }
+
+        p {
+            margin-top: 10px;
+            font-size: 14px;
+        }
+    }
+
+    .back {
+        top: 30px;
+    }
+}
+
+
+@media (max-width: 600px) {
+    .card {
+        padding: 15px 20px;
+        padding-right: 50px;
+        border-radius: 10px;
+
+        h2 {
+            font-size: 18px;
+        }
+
+        p {
+            display: none;
+        }
+    }
+
+    .tag {
+        left: auto;
+        right: 0;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    .back {
+        display: none;
+    }
+}

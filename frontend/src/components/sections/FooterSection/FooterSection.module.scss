@@ -1,0 +1,120 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.section {
+    padding: 50px 0;
+    padding-bottom: 0;
+
+    color: $color-light-gray;
+    background-color: $color-black;
+
+    nav {
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.mainList {
+    flex-basis: 60%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    li {
+        flex-basis: 24%;
+    }
+}
+
+.link {
+    display: block;
+    padding: 5px;
+
+    transition: color 0.3s;
+
+    &:hover {
+        color: $color-white;
+    }
+}
+
+.contacts {
+    text-align: right;
+
+    li {
+        margin-top: 10px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    a {
+        transition: color 0.3s;
+
+        &:hover {
+            color: $color-main;
+
+            svg path {
+                fill: $color-main;
+            }
+        }
+    }
+
+    svg path {
+        transition: fill 0.3s;
+    }
+}
+
+.telItem {
+    a {
+        color: $color-white;
+        font-size: 24px;
+        font-family: $ff-medium;
+    }
+
+    p {
+        margin-top: 5px;
+        font-size: 12px;
+    }
+}
+
+.bottom {
+    margin-top: 50px;
+    padding-top: 17px;
+    padding-bottom: 17px;
+
+    background-color: $color-light-black;
+
+    &>* {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
+
+@media (max-width: 1024px) {
+    .mainList {
+        display: none;
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        padding-bottom: 50px;
+    }
+
+    .bottom {
+        display: none;
+    }
+}
+
+@media (max-width: 525px) {
+    .section {
+        nav {
+            justify-content: flex-end;
+        }
+    }
+    
+    .otherList {
+        display: none;
+    }
+}

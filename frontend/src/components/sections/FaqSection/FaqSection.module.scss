@@ -1,0 +1,17 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.button {
+    display: block;
+    width: 100%;
+    
+    border-style: dashed !important;
+}
+
+.list {
+    margin-top: 40px;
+
+    li {
+        margin-top: 15px;
+    }
+}

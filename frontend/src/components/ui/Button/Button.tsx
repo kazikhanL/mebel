@@ -17,12 +17,14 @@ const Button = ({
 
     const onClickHandler = (event: MouseEvent<HTMLButtonElement>): void => {
         if (buttonRef.current) {
+            const buttonPosition = buttonRef.current.getBoundingClientRect();
+
             const waveStyleProperties: CSSProperties = {
-                top: `${event.clientY - Number(buttonRef.current.offsetTop)}px`,
-                left: `${event.clientX - Number(buttonRef.current.offsetLeft)}px`,
+                top: `${event.pageY - (buttonPosition.top + scrollY)}px`,
+                left: `${event.pageX - (buttonPosition.left + scrollX)}px`,
             };
 
-            const key = `${waveStyleProperties.top}${waveStyleProperties.left}`;
+            const key = new Date().getTime();
             const newWave = <span key={key} className={styles.wave} style={waveStyleProperties} />;
 
             setWave(newWave);

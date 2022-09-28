@@ -1,0 +1,24 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.wrapper {
+    position: relative;
+
+    input {
+        display: block;
+        border: 1px solid $color-gray;
+        border-radius: 30px;
+        width: 100%;
+        padding: 10px 20px;
+        padding-right: 40px;
+
+        font-size: 16px;
+    }
+}
+
+.icon {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+}

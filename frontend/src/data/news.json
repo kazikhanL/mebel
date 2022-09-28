@@ -1,0 +1,184 @@
+[
+    {
+        "id": 0,
+        "title": "Дополнительные товары в аренду на мероприятие",
+        "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><h3>Test title</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p> 15px<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p>",
+        "date": "20.12.2021",
+        "image": "/images/seo.jpg",
+        "goods": [
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1"
+        ]
+    },
+    {
+        "id": 1,
+        "title": "Дополнительные товары в аренду на мероприятие",
+        "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><h3>Test title</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p> 15px<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p>",
+        "date": "20.12.2021",
+        "image": "/images/seo.jpg",
+        "goods": [
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1"
+        ]
+    },
+    {
+        "id": 2,
+        "title": "Дополнительные товары в аренду на мероприятие",
+        "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><h3>Test title</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p> 15px<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p>",
+        "date": "20.12.2021",
+        "image": "/images/seo.jpg",
+        "goods": [
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1"
+        ]
+    },
+    {
+        "id": 3,
+        "title": "Дополнительные товары в аренду на мероприятие",
+        "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><h3>Test title</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p> 15px<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p>",
+        "date": "20.12.2021",
+        "image": "/images/seo.jpg",
+        "goods": [
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1"
+        ]
+    },
+    {
+        "id": 4,
+        "title": "Дополнительные товары в аренду на мероприятие",
+        "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><h3>Test title</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p> 15px<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p>",
+        "date": "20.12.2021",
+        "image": "/images/seo.jpg",
+        "goods": [
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1"
+        ]
+    },
+    {
+        "id": 5,
+        "title": "Дополнительные товары в аренду на мероприятие",
+        "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><h3>Test title</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p> 15px<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p>",
+        "date": "20.12.2021",
+        "image": "/images/seo.jpg",
+        "goods": [
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1"
+        ]
+    },
+    {
+        "id": 6,
+        "title": "Дополнительные товары в аренду на мероприятие",
+        "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><h3>Test title</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p> 15px<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p>",
+        "date": "20.12.2021",
+        "image": "/images/seo.jpg",
+        "goods": [
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1"
+        ]
+    },
+    {
+        "id": 7,
+        "title": "Дополнительные товары в аренду на мероприятие",
+        "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><h3>Test title</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p> 15px<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p>",
+        "date": "20.12.2021",
+        "image": "/images/seo.jpg",
+        "goods": [
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1"
+        ]
+    },
+    {
+        "id": 8,
+        "title": "Дополнительные товары в аренду на мероприятие",
+        "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><h3>Test title</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p> 15px<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p>",
+        "date": "20.12.2021",
+        "image": "/images/seo.jpg",
+        "goods": [
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1"
+        ]
+    },
+    {
+        "id": 9,
+        "title": "Дополнительные товары в аренду на мероприятие",
+        "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><h3>Test title</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p> 15px<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p>",
+        "date": "20.12.2021",
+        "image": "/images/seo.jpg",
+        "goods": [
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1"
+        ]
+    },
+    {
+        "id": 10,
+        "title": "Дополнительные товары в аренду на мероприятие",
+        "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><h3>Test title</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p> 15px<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p>",
+        "date": "20.12.2021",
+        "image": "/images/seo.jpg",
+        "goods": [
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1"
+        ]
+    },
+    {
+        "id": 11,
+        "title": "Дополнительные товары в аренду на мероприятие",
+        "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><h3>Test title</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p> 15px<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p>",
+        "date": "20.12.2021",
+        "image": "/images/seo.jpg",
+        "goods": [
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1"
+        ]
+    },
+    {
+        "id": 12,
+        "title": "Дополнительные товары в аренду на мероприятие",
+        "content": "<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><h3>Test title</h3><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p> 15px<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p><p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae est explicabo temporibus, reiciendis iure maxime, nostrum eaque eos dolorem dolor, quo aliquid illum nulla modi? Ut facilis porro magni quo.</p>",
+        "date": "20.12.2021",
+        "image": "/images/seo.jpg",
+        "goods": [
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1",
+            "/catalog/card-1"
+        ]
+    }
+]

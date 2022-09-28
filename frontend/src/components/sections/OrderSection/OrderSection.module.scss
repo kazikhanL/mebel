@@ -1,0 +1,95 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    div {
+        position: relative;
+        z-index: 1;
+
+        padding: 48px 68px;
+        border-radius: 20px;
+        background: linear-gradient(90deg, #B5DAB5 6.11%, #F1DA9F 91.1%);
+    }
+
+    p {
+        color: $color-light-black;
+        font-size: 18px;
+        max-width: 40%;
+
+        &:first-child {
+            font-size: 38px;
+            font-family: $ff-bold;
+
+            margin-bottom: 10px;
+        }
+    }
+
+    picture {
+        position: absolute;
+        right: 0;
+        bottom: 0px;
+        width: 60%;
+        z-index: -1;
+
+        img {
+            display: block;
+            width: 100%;
+            height: auto;
+        }
+    }
+}
+
+.button {
+    margin-top: 25px;
+}
+
+@media (max-width: 1024px) {
+    .section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+
+        div {
+            padding: 40px 30px;
+        }
+
+        p {
+            max-width: 45%;
+        }
+    }
+
+    .button {
+        margin-left: 20px;
+    }
+}
+
+@media (max-width: 750px) {
+    .section {
+        text-align: center;
+
+        div {
+            padding-bottom: 0;
+        }
+    
+        p {
+            max-width: 100%;
+
+            &:first-child {
+                font-size: 30px;
+            }
+        }
+
+        picture {
+            margin-top: 20px;
+            display: block;
+            position: static;
+            width: 100%;
+        }
+    }
+
+    .button {
+        margin-left: 0px;
+    }
+}

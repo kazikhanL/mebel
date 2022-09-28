@@ -1,0 +1,117 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+
+.accordion {
+    padding: 15px 30px;
+    background-color: $color-white;
+    border-radius: 40px;
+    cursor: pointer;
+
+    transition: background-color 0.3s, border-radius 0.3s;
+
+    header {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    &:hover {
+        background-color: $color-main;
+
+        .icon {
+
+            &::after,
+            &::before {
+                background-color: $color-white;
+            }
+        }
+    }
+}
+
+.title {
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: $ff-regular;
+}
+
+.answer {
+    overflow: hidden;
+    padding-right: 50%;
+
+    font-size: 16px;
+
+    &>* {
+        margin-top: 10px;
+
+        &:first-child {
+            margin-top: 30px;
+        }
+    }
+}
+
+
+.icon {
+    position: relative;
+    transition: transform 0.3s;
+
+    &::after,
+    &::before {
+        content: "";
+        position: absolute;
+        top: 50%;
+        left: 50%;
+
+        width: 26px;
+        height: 2px;
+
+        display: block;
+        background-color: $color-main;
+
+        transform: translate(-50%, -50%);
+    }
+
+    &::after {
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
+}
+
+.active {
+    border-radius: 20px;
+
+    .icon {
+        transform: rotate(-135deg);
+
+        &::after,
+        &::before {
+            background-color: $color-light-gray;
+        }
+    }
+
+    &:hover {
+        background-color: $color-light-light-gray;
+
+        .icon {
+
+            &::after,
+            &::before {
+                background-color: $color-white;
+            }
+        }
+    }
+}
+
+@media (max-width: 1024px) {
+    .answer {
+        padding-right: 0;
+
+        * {
+            font-size: 15px;
+            line-height: 18px;
+        }
+    }
+
+    .title {
+        font-size: 18px;
+    }
+}

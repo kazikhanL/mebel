@@ -4,7 +4,7 @@
 .button {
     font-size: 16px;
     font-family: $ff-medium;
-    position: relative;
+    position: relative !important;
     overflow: hidden;
 
     padding: 0.8rem 2rem;
@@ -31,8 +31,6 @@
 
 .wave {
     position: absolute;
-    top: 10px;
-    left: 20px;
 
     width: 5px;
     height: 5px;

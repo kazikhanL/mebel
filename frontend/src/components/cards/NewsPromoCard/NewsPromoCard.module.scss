@@ -1,0 +1,73 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.card {
+    position: relative;
+
+    width: 100%;
+    min-height: 100%;
+    background-color: transparent;
+    border-radius: 10px;
+    overflow: hidden;
+
+    transition: background-color 0.5s;
+
+    &:hover {
+        background-color: $color-white;
+
+        .imageWrapper {
+            img {
+                transform: scale(1.1);
+            }
+        }
+    }
+}
+
+.imageWrapper {
+    overflow: hidden;
+
+    img {
+        display: block;
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+
+        transition: transform 0.5s;
+    }
+}
+
+.inner {
+    padding: 20px;
+    padding-bottom: 30px;
+    position: relative;
+    z-index: 1;
+
+    h3 {
+        font-size: 18px;
+    }
+
+    p {
+        margin-top: 10px;
+
+        color: $color-gray;
+        font-size: 14px;
+    }
+}
+
+.link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+
+    opacity: 0;
+    font-size: 0;
+    z-index: 2;
+}
+
+@media (max-width: 625px) {
+    .inner {
+        padding: 15px;
+    }
+}

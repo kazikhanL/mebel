@@ -1,0 +1,40 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.tag {
+    padding: 10px 13px 0 13px;
+    width: 51px;
+    height: 58px;
+    border-radius: 10px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    clip-path: polygon(0 0, 100% 0%, 100% 100%, 48% 80%, 0 100%);
+}
+
+.main {
+    background-color: #EFD9A3;
+}
+
+.green {
+    background-color: $color-green;
+}
+
+.purple {
+    background-color: #BBC2DD;
+}
+
+.ligth-green {
+    background-color: #C4E5C3;
+}
+
+.red {
+    background-color: $color-red;
+}
+
+.blue {
+    background-color: $color-blue;
+}
+
+.yellow {
+    background-color: $color-main;
+}

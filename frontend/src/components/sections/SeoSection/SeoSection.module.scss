@@ -1,0 +1,55 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.section {
+    position: relative;
+
+    article {
+        h2 {
+            margin-bottom: 20px;
+        }
+
+        h3 {
+            margin: 10px 0;
+        }
+
+        ul,
+        ol {
+            margin: 10px 0;
+            list-style: inside;
+            padding-left: 20px;
+
+            li {
+                margin: 5px 0;
+            }
+        }
+    }
+
+    img {
+        float: right;
+
+        margin-left: 15px;
+        margin-bottom: 15px;
+
+        width: 45%;
+        height: auto;
+        border-radius: 10px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .section {
+        article {
+            h2 {
+                margin: 20px 0;
+            }
+        }
+
+        img {
+            margin: 0;
+            display: block;
+            float: unset;
+            width: 100%;
+        }
+    }
+}

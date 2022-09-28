@@ -1,0 +1,105 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.wrapper {
+    display: flex;
+    align-items: center;
+
+    svg path {
+        transition: fill 0.3s;
+    }
+}
+
+.count {
+    margin-left: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    transition: color 0.3s, background-color 0.3s;
+}
+
+.price {
+    width: 0;
+    white-space: nowrap;
+    overflow: hidden;
+
+    transition: width 0.5s;
+    text-align: right;
+}
+
+.favorites {
+    &:hover {
+        svg path {
+            fill: $color-red;
+        }
+    }
+}
+
+.count {
+    padding: 5px 15px;
+    background-color: $color-bg;
+    border-radius: 30px;
+
+    display: flex;
+    align-items: center;
+
+    span {
+        margin-left: 5px;
+
+        font-size: 14px;
+        font-family: $ff-medium;
+    }
+
+    &:hover {
+        svg {
+            path {
+                fill: $color-main;
+            }
+        }
+    }
+}
+
+.active {
+    color: $color-white;
+    background-color: $color-black;
+
+    svg {
+        path {
+            fill: $color-main;
+        }
+    }
+
+    span {
+        padding-right: 7px;
+        display: block;
+        border-right: 1px solid $color-white;
+
+        &:last-child {
+            border-right: none;
+        }
+    }
+
+    .price {
+        width: 77px;
+    }
+}
+
+@media (max-width: 1024px)  {
+    .favorites {
+        display: none;
+    }
+
+    .count {
+        margin-left: 0;
+
+        span {
+            border: none;
+            
+            &:last-child {
+                display: none;
+            }
+        }
+    }
+}

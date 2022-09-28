@@ -1,0 +1,57 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.section {
+    position: relative;
+
+    padding-top: 70px;
+    padding-bottom: 70px;
+
+    text-align: center;
+
+    min-height: 70vh;
+
+    img {
+        margin:  0 auto;
+        display: block;
+        border-radius: 20px;
+
+        width: 100%;
+        height: auto;
+        max-width: 753px;
+    }
+
+    h1 {
+        margin-top: 30px;
+        padding-bottom: 10px;
+    }
+
+    a {
+        margin-top: 30px;
+    }
+}
+
+.background {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: -1;
+    opacity: 0.3;
+    transform: translate(-50%, -50%);
+
+    color: $color-light-light-gray;
+    font-size: 47em;
+    font-family: $ff-bold;
+}
+
+@media (max-width: 1024px) {
+    .background {
+        font-size: 37em;
+    }
+}
+
+@media (max-width: 768px) {
+    .background {
+        display: none;
+    }
+}

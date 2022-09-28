@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 
 import Layout from "@components/Layout";
-import HeaderSection from "@components/sections/HeaderSection";
 import PromoSection from "@components/sections/PromoSection";
 import DescriptionSection from "@components/sections/DescriptionSection";
 import PromoCatalogSection from "@components/sections/PromoCatalogSection";
@@ -10,7 +9,6 @@ import NewsPromoSection from "@components/sections/NewsPromoSection";
 import FaqSection from "@components/sections/FaqSection";
 import SeoSection from "@components/sections/SeoSection";
 import OrderSection from "@components/sections/OrderSection";
-import FooterSection from "@components/sections/FooterSection";
 
 import promoData from "@data/promo.json";
 import descriptionItems from "@data/descriptionCards.json";

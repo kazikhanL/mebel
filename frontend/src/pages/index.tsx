@@ -1,5 +1,6 @@
 import type { NextPage } from "next";
 
+import Layout from "@components/Layout";
 import HeaderSection from "@components/sections/HeaderSection";
 import PromoSection from "@components/sections/PromoSection";
 import DescriptionSection from "@components/sections/DescriptionSection";
@@ -26,8 +27,7 @@ const Home: NextPage = () => {
     const slides = selectionData.map((item: ISelection) => <SelectionPromoCard key={item.id} info={item} />);
 
     return (
-        <>
-            <HeaderSection />
+        <Layout categories={promoCatalog}>
             <PromoSection isMainPage {...promoData} />
             <DescriptionSection items={descriptionItems} />
             <PromoCatalogSection cards={promoCatalog} />
@@ -37,8 +37,7 @@ const Home: NextPage = () => {
             <FaqSection items={faqData} />
             <SeoSection {...seoData} />
             <OrderSection />
-            <FooterSection categories={promoCatalog} />
-        </>
+        </Layout>
     );
 };
 

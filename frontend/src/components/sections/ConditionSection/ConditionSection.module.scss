@@ -1,0 +1,77 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.section {
+    h1 {
+        padding-bottom: 20px;
+    }
+
+    article {
+        margin-top: 80px;
+
+        h2 {
+            color: $color-gray;
+        }
+
+        p {
+            margin-top: 20px;
+            padding-left: 30px;
+            font-size: 18px;
+            line-height: 130%;
+        }
+    }
+}
+
+.container {
+    padding-right: 0;
+}
+
+.slider {
+    & > * {
+        padding: 5px;
+        
+        width: fit-content;
+        max-width: fit-content;
+        min-width: fit-content;
+    }
+}
+
+.link {
+    font-size: 14px;
+    font-family: $ff-medium;
+    white-space: nowrap;
+    text-align: center;
+
+    display: inline-block;
+
+    padding: 1rem 2rem;
+    border: 1px solid transparent;
+    border-radius: 30px;
+    transition: color 0.3s, background-color 0.3s, border-color 0.3s, transform 0.3s;
+
+    color: $color-gray;
+    background-color: transparent;
+    border-color: $color-light-gray;
+
+    &:hover {
+        color: $color-black;
+        background-color: $color-main;
+    }
+
+    &:active {
+        transform: scale(0.9);
+    }
+}
+
+@media (max-width: 768px) {
+    .section {
+        article {
+            margin-top: 50px;
+
+            p {
+                padding-left: 0;
+                font-size: 16px;
+            }
+        }
+    }
+}

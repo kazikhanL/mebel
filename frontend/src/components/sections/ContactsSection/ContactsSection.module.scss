@@ -1,0 +1,63 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.section {
+    padding-top: 100px;
+    padding-bottom: 70px;
+}
+
+.wrapper {
+    margin-top: 40px;
+
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+
+    & > * {
+        &:first-child {
+            flex-basis: 34%;
+        }
+        &:last-child {
+            flex-basis: 64%;
+        }
+    }
+}
+
+.mapWrapper {
+    border-radius: 20px;
+    overflow: hidden;
+
+    iframe {
+        width: 100%;
+    }
+}
+
+
+@media (max-width: 1024px) {
+    .wrapper {
+        flex-direction: column;
+
+        & > * {
+            flex-basis: 100%;
+        }
+    }
+
+    .mapWrapper {
+        margin-top: 25px;
+    }
+}
+
+@media (max-width: 425px) {
+    .section {
+        padding: 50px 0;
+
+        h2 {
+            padding-left: 5%;
+        }
+    }
+
+    .mapWrapper {
+        margin-top: 0;
+        border-radius: 0px;
+    }
+}

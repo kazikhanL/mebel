@@ -12,12 +12,12 @@ const CartPanel = ({ className = "" }: CartPanelProps): JSX.Element => {
 
     return (
         <div className={`${styles.wrapper} ${className}`} onClick={toggle}>
-            <Link href="/">
+            <Link href="/" prefetch={false}>
                 <a className={styles.favorites}>
                     <HeartIcon />
                 </a>
             </Link>
-            <Link href="/">
+            <Link href="/" prefetch={false}>
                 <a className={`${styles.count} ${active ? styles.active : ""}`}>
                     <CartIcon />
                     <span>0</span>

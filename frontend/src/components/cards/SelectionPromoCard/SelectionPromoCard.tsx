@@ -20,7 +20,7 @@ const SelectionPromoCard = ({ info, className = "" }: SelectionPromoCardProps): 
                 <p>{subTitle}</p>
                 <Button color="black">Выбрать</Button>
             </div>
-            <Link href={link}>
+            <Link href={link} prefetch={false}>
                 <a>{title}</a>
             </Link>
         </div>

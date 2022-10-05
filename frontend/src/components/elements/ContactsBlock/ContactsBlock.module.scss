@@ -1,0 +1,56 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.wrapper {
+    padding: 50px 30px;
+
+    min-height: 100%;
+    border-radius: 20px;
+    background-color: $color-white;
+
+    & > * {
+        margin-top: 60px;
+        display: flex;
+        align-items: flex-start;
+
+        cursor: pointer;
+
+        span {
+            margin-left: 23px;
+            font-size: 18px;
+            line-height: 24px;
+            color: $color-black;
+
+            transition: color 0.3s;
+        }
+
+        svg path {
+            transition: fill 0.3s;
+        }
+
+        &:hover {
+            span {
+                color: $color-main;
+            }
+
+            svg path {
+                fill: $color-main;
+            }
+        }
+
+        &:first-child {
+            margin-top: 0;
+
+            span {
+                font-size: 24px;
+                font-family: $ff-bold;
+            }
+        }
+    }
+}
+
+@media (max-width: 425px) {
+    .wrapper {
+        border-radius: 0px;
+    }
+}

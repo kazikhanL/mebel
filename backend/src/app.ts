@@ -7,6 +7,7 @@ import fileUpload from "express-fileupload";
 import authorizationRouter from "./routers/authorization";
 import usersRouter from "./routers/users";
 import faqRouter from "./routers/faq";
+import imagesRouter from "./routers/images";
 import notFoundErrorHandler from "./middlewares/notFoundErrorHandler";
 import serverErrorHandler from "./middlewares/serverErrorHandler";
 
@@ -25,6 +26,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use("/authorization", authorizationRouter);
 app.use("/users", usersRouter);
 app.use("/faq", faqRouter);
+app.use("/images", imagesRouter);
 
 app.use(notFoundErrorHandler);  // 404 error
 app.use(serverErrorHandler);    // 500 error

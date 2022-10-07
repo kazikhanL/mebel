@@ -7,6 +7,11 @@ const loginValidationSchema = Joi.object({
 });
 
 const loginValidation = (request: Request, response: Response, next: NextFunction): void => {
+    if (request.body.user === undefined) {
+        response.status(400).send("не коректнный JSON -> требуется поле user");
+        return;
+    }
+    
     const { error } = loginValidationSchema.validate(request.body.user);
 
     if (error) {

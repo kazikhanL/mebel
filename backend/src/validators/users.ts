@@ -9,6 +9,11 @@ const userValidationShema = Joi.object({
 });
 
 const userValidation = (request: Request, response: Response, next: NextFunction): void => {
+    if (request.body.user === undefined) {
+        response.status(400).send("не коректнный JSON -> требуется поле user");
+        return;
+    }
+
     const { error } = userValidationShema.validate(request.body.user);
 
     if (error) {

@@ -2,8 +2,11 @@ import Link from "next/link";
 
 import styles from "./NewsPromoCard.module.scss";
 import INews from "@interfaces/INews";
+import translateTitle from "@utilities/translateTitle";
 
-const NewsPromoCard = ({ title, date, image }: INews): JSX.Element => {
+const NewsPromoCard = ({ title, date, image, url }: INews): JSX.Element => {
+    const path = url ? `news/${url}` : `news/${translateTitle(title)}`;
+
     return (
         <div className={styles.card}>
             <div className={styles.imageWrapper}>
@@ -13,7 +16,7 @@ const NewsPromoCard = ({ title, date, image }: INews): JSX.Element => {
                 <h3>{title}</h3>
                 <p>{date}</p>
             </div>
-            <Link href="/" prefetch={false}>
+            <Link href={path} prefetch={false}>
                 <a className={styles.link}>{title}</a>
             </Link>
         </div>

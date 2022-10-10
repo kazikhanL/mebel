@@ -11,9 +11,9 @@ const FooterSection = ({ className = "", categories }: FooterSectionProps): JSX.
     const footerStyleClasses = `${styles.section} ${className}`;
 
     const otherLinks = [
-        { title: "Условия аренды", link: "/" },
-        { title: "Мероприятия", link: "/" },
-        { title: "Контакты", link: "/" },
+        { title: "Условия аренды", link: "/conditions" },
+        { title: "Мероприятия", link: "/news" },
+        { title: "Контакты", link: "/contacts" },
     ];
 
     return (

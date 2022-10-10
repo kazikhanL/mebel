@@ -16,15 +16,11 @@ export const getImages = (request: Request, response: Response): void => {
         .catch(() => errorHandler(response));
 };
 
-// TODO: РЕФАКТОРИТЬ
 export const addImage = (request: Request, response: Response): void => {
     const images = request.files?.images;
     const files: UploadedFile[] = [];
 
-    if (images === undefined) {
-        response.status(400).send("загрузите файл(ы)");
-        return;
-    }
+    if (images === undefined) return;
 
     if (Array.isArray(images)) {
         files.push(...images);
@@ -33,16 +29,15 @@ export const addImage = (request: Request, response: Response): void => {
     }
 
     files.forEach((file) => {
-        const uploadPath = path.resolve(__dirname, "../../public/uploads", `${uuidv1()}.${file.name}`);
+        const dbPath = `public/uploads/${uuidv1()}.${file.name}`;
+        const uploadPath = path.resolve(__dirname, "../../", dbPath);
 
         file
             .mv(uploadPath)
             .then(() => {
                 imagesTable
-                    .add(file.name, uploadPath)
-                    .catch((err) => {
-                        console.log(err);
-                        
+                    .add(file.name, dbPath)
+                    .catch(() => {
                         errorHandler(response);
                         process.exit();
                     });
@@ -57,7 +52,26 @@ export const addImage = (request: Request, response: Response): void => {
 };
 
 export const deleteImage = (request: Request, response: Response): void => {
-    response.send("images");
+    const id = Number(request.params.id);
 
+    if (Number.isNaN(id)) {
+        response.status(400).send("не коректнный id");
+        return;
+    }
+
+    imagesTable
+        .findByID(id)
+        .then((result) => {
+            const isExists = result.rows.length > 0;
+
+            if (isExists) {
+                imagesTable
+                    .delete(id)
+                    .then(() => response.send("файл удален"))
+                    .catch(() => response.status(500).send("ошибка удаления файла"));
+            } else {
+                response.status(404).send("файла не сушетсвует");
+            }
+        })
+        .catch(() => errorHandler(response));
 };
-

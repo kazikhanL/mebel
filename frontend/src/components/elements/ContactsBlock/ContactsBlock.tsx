@@ -1,9 +1,9 @@
 import styles from "./ContactsBlock.module.scss";
 import cleanPhone from "@utilities/cleanPhone";
 import { PHONE, EMAIL, ADDRESS, YOUTUBE } from "@constants";
-import PhoneIcon from "@components/icons/contacts/phone";
-import EmailIcon from "@components/icons/contacts/email";
-import AddressIcon from "@components/icons/contacts/address";
+import PhoneIcon from "@components/icons/contacts/Phone";
+import EmailIcon from "@components/icons/contacts/Email";
+import AddressIcon from "@components/icons/contacts/Address";
 import YouTubeIcon from "@components/icons/YouTube";
 
 const ContactsBlock = (): JSX.Element => {

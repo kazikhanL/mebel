@@ -1,0 +1,16 @@
+.section {
+    background-color: white;
+
+    div {
+        margin-top: 35px;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+
+    p {
+        margin-top: 10px;
+        line-height: 130%;
+    }
+}

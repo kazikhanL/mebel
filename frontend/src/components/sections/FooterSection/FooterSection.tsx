@@ -57,7 +57,7 @@ const FooterSection = ({ className = "", categories }: FooterSectionProps): JSX.
             <div className={styles.bottom}>
                 <div className="container">
                     <p>Все права защищены © 2022 «Мебель в аренду»</p>
-                    <Link href="/" prefetch={false}>
+                    <Link href="/privacy" prefetch={false}>
                         <a className={styles.link}>Политика конфиденциальности</a>
                     </Link>
                 </div>

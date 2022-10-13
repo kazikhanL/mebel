@@ -10,6 +10,8 @@
     border: 1px solid $color-light-gray;
     border-radius: 20px;
 
+    transition: color 0.3s, background-color 0.3s;
+
     a {
         position: absolute;
         top: 0;
@@ -22,11 +24,9 @@
     }
 
     img {
-        object-fit: cover;
         display: block;
+        object-fit: cover;
         border-radius: 20px;
-
-        transition: transform 0.3s;
     }
 
     p {
@@ -34,15 +34,15 @@
     }
 
     &:hover {
-        img {
-            transform: scale(1.03);
-        }
+        color: $color-white;
+        background-color: $color-light-black;
 
         .arrowWrapper {
             border-color: $color-main;
+            background-color: $color-main;
 
             svg path {
-                fill: $color-main;
+                fill: $color-white;
             }
         }
     }
@@ -62,7 +62,7 @@
     align-items: center;
     justify-content: center;
 
-    transition: border-color 0.3s;
+    transition: border-color 0.3s, background-color 0.3s;
 
     svg path {
         transition: fill 0.3s;

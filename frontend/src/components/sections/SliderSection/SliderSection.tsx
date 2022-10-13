@@ -1,4 +1,5 @@
 import { useKeenSlider } from "keen-slider/react";
+import "keen-slider/keen-slider.min.css";
 
 import styles from "./SliderSection.module.scss";
 import SliderSectionProps from "./SliderSection.props";

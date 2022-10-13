@@ -1,0 +1,35 @@
+@import "./../../../../styles/variables/fonts";
+@import "./../../../../styles/variables/colors";
+
+.wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.filters {
+    width: 100% !important;
+    max-width: 68% !important;
+}
+
+.link,
+.button {
+    white-space: nowrap !important;
+}
+
+.allLink {
+    margin-right: 15px;
+}
+
+@media (max-width: 845px) {
+    .wrapper {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .filters {
+        order: 1;
+        margin-top: 20px;
+        max-width: 100% !important;
+    }
+}

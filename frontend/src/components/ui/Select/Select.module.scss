@@ -1,0 +1,64 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.wrapper {
+    position: relative;
+    min-width: 220px;
+
+    p {
+        color: $color-gray;
+        font-size: 16px;
+
+        padding: 10px 15px;
+        padding-right: 30px;
+        border-radius: 20px;
+        border: 1px solid $color-light-gray;
+
+        cursor: pointer;
+
+        &:hover {
+            color: $color-black;
+            border-color: $color-gray;
+        }
+    }
+}
+
+.optionsList {
+    position: absolute;
+    top: 110%;
+    width: 100%;
+
+    border-radius: 20px;
+    border: 1px solid $color-light-gray;
+    background-color: $color-bg;
+
+    li {
+        padding: 5px 15px;
+        display: block;
+        cursor: pointer;
+
+        transition: color 0.3s;
+
+        &:hover {
+            color: $color-blue;
+        }
+
+        &:first-child {
+            padding-top: 15px;
+        }
+        &:last-child {
+            padding-bottom: 15px;
+        }
+    }
+}
+
+.arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%) rotate(180deg);
+    right: 20px;
+}
+
+.arrowActive {
+    transform: translateY(-50%) rotate(0deg);
+}

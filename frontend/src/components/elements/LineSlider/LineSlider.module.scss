@@ -1,0 +1,74 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.emptySlide {
+    min-width: 180px;
+}
+
+.shadowDecor {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 30px;
+    height: 100%;
+
+    opacity: 0.5;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+    background: linear-gradient(90deg, #B7B4AE 0%, rgba(245, 243, 238, 0) 121.67%);
+}
+
+.decorLeft {
+    top: auto;
+    left: 0;
+    background: linear-gradient(90deg, rgba(245, 243, 238, 0) 0%, #B7B4AE 121.67%);
+}
+
+.button {
+    width: 30px;
+    min-width: 30px;
+    max-width: 30px;
+
+    height: 30px;
+    max-height: 30px;
+    min-height: 30px;
+
+    padding: 0 !important;
+    margin-left: 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    &:hover {
+        background-color: inherit !important;
+        border-color: $color-black  !important;
+
+        svg path {
+            fill: $color-black;
+        }
+    }
+
+    svg {
+        width: 15px;
+
+        path {
+            transition: fill 0.3s;
+        }
+    }
+}
+
+.buttonLeft {
+    margin-left: 0;
+    margin-right: 10px;
+
+    svg {
+        transform: rotate(180deg);
+    }
+}

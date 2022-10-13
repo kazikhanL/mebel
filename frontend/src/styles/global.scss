@@ -20,3 +20,9 @@ body {
 main {
     margin-right: calc(-1*(100vw - 100%));
 }
+
+.keen-slider__slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

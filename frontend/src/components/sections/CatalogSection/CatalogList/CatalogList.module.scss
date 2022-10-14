@@ -1,0 +1,44 @@
+@import "./../../../../styles/variables/fonts";
+@import "./../../../../styles/variables/colors";
+
+.list {
+    margin: 0 -5px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+
+    li {
+        padding: 10px;
+        flex-basis: 25%;
+    }
+}
+
+
+@media (max-width: 1124px) {
+    .list {
+
+        li {
+            flex-basis: 33.3%;
+        }
+    }
+}
+
+@media (max-width: 825px) {
+    .list {
+
+        li {
+            flex-basis: 50%;
+        }
+    }
+}
+
+@media (max-width: 525px) {
+    .list {
+        margin: 0;
+        
+        li {
+            padding: 10px 0;
+            flex-basis: 100%;
+        }
+    }
+}

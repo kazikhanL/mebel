@@ -1,7 +1,7 @@
 export interface IPromoCard {
     id: number;
     image: string;
-    title: string;
+    name: string;
     code: string;
     disposable: boolean;
     pricePrefix: string | null;

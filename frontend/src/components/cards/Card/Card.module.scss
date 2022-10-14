@@ -1,3 +1,175 @@
 @import "./../../../styles/variables/fonts";
 @import "./../../../styles/variables/colors";
 
+.card {
+    overflow: hidden;
+    border-radius: 20px;
+    min-height: 100%;
+    border: 2px solid transparent;
+
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    transition: border-color 0.3s, background-color 0.3s, box-shadow 0.3s;
+
+    img {
+        display: block;
+        border-radius: 20px;
+        width: 100%;
+        height: auto;
+        cursor: pointer;
+    }
+
+    &:hover {
+        background-color: $color-white;
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.13);
+
+        .footer {
+            opacity: 1;
+        }
+    }
+}
+
+.active {
+    border-color: $color-green;
+    background-color: $color-white;
+
+    .footer {
+        opacity: 1;
+    }
+}
+
+.activeFavorite {
+    .buttonFavorite {
+        svg path {
+            fill: $color-red;
+        }
+    }
+}
+
+.inner {
+    padding: 15px;
+    cursor: pointer;
+}
+
+.name {
+    font-size: 16px;
+    font-family: $ff-medium;
+}
+
+.code {
+    margin-top: 5px;
+
+    font-size: 14px;
+    color: $color-gray;
+}
+
+.mainPrice {
+    margin-top: 15px;
+
+    font-size: 18px;
+    font-family: $ff-bold;
+
+    span {
+        margin-left: 5px;
+        color: $color-light-gray;
+        font-size: 12px;
+        font-size: $ff-regular;
+    }
+
+    .prefix {
+        margin: 0;
+    }
+}
+
+.secondPrice {
+    color: $color-gray;
+    font-size: 16px;
+    font-family: $ff-bold;
+
+    svg path {
+        fill: $color-gray;
+    }
+
+    span {
+        margin-left: 5px;
+        color: $color-light-gray;
+        font-size: 12px;
+        font-size: $ff-regular;
+    }
+}
+
+.footer {
+    padding: 15px;
+    padding-top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    opacity: 0;
+    transition: opacity 0.3s;
+}
+
+.button {
+    padding: 5px !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    &:hover {
+        border-color: transparent !important;
+        background-color: transparent !important;
+    }
+
+    span {
+        margin-left: 10px;
+    }
+
+    svg {
+        path {
+            transition: fill 0.3s;
+        }
+    }
+}
+
+.buttonCart {
+    color: $color-light-gray;
+
+    &:hover {
+        color: $color-green;
+
+        svg path {
+            fill: $color-green;
+        }
+    }
+}
+
+.buttonFavorite {
+    &:hover {
+        svg path {
+            fill: $color-red;
+        }
+    }
+}
+
+.done {
+    width: 27px;
+    height: 27px;
+    border-radius: 50%;
+    background-color: $color-green;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    position: absolute;
+    top: 5px;
+    left: 5px;
+
+    svg {
+        width: 100%;
+    }
+}

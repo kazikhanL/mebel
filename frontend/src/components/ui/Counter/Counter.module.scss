@@ -1,0 +1,104 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.wrapper {
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between;
+
+    width: 100%;
+    max-width: 130px;
+    position: relative;
+    overflow: hidden;
+
+
+    border-radius: 30px;
+    border: 1px solid $color-light-gray;
+
+    input {
+        width: 50%;
+        min-height: 100%;
+        display: block;
+        border: none;
+
+
+        text-align: center;
+        font-size: 15px;
+        font-family: $ff-bold;
+    }
+}
+
+.button {
+    width: 40px;
+    height: 40px;
+
+    position: relative;
+    z-index: 1;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.add {
+    &:hover {
+        background-color: $color-green;
+
+        .plus {
+
+            &::before,
+            &::after {
+                background-color: $color-white  !important;
+            }
+        }
+    }
+}
+
+.delete {
+    &:hover {
+        background-color: $color-red;
+
+        .minus {
+            background-color: $color-white;
+        }
+    }
+}
+
+.minus,
+.plus {
+    transition: background-color 0.3s;
+}
+
+.minus {
+    width: 10px;
+    height: 2px;
+    background-color: $color-gray;
+    display: block;
+}
+
+.plus {
+    position: relative;
+
+    &::before,
+    &::after {
+        content: "";
+        display: block;
+        width: 10px;
+        height: 2px;
+        background-color: $color-gray;
+
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        transition: background-color 0.3s;
+    }
+
+    &::after {
+        transform: translate(-50%, -50%) rotate(90deg);
+    }
+}

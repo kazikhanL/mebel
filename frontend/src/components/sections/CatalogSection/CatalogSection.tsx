@@ -7,6 +7,7 @@ import { SelectOption } from "@components/ui/Select/Select.props";
 import CatalogFilterPanel from "./CatalogFilterPanel";
 import { IPromoCard } from "@interfaces/ICard";
 import CatalogList from "./CatalogList";
+import Pagination from "@components/ui/Pagination";
 
 // for testing : tmp
 import testData from "@data/category.json";
@@ -59,6 +60,14 @@ const CatalogSection = (props: CatalogSectionProps): JSX.Element => {
                 onChangeSelect={onChangeSelect}
             />
             <CatalogList className={styles.list} cards={testCards.slice(0, PAGE_SIZE)} />
+            <Pagination
+                className={styles.pagination}
+                current={currentPage}
+                pageSize={PAGE_SIZE}
+                total={totalCards}
+                changeHandler={(index) => { console.log("change page", index); }}
+                showMoreHandler={() => { console.log("show more"); }}
+            />
         </section>
     );
 };

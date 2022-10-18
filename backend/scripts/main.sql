@@ -1,3 +1,5 @@
+-- global
+
 CREATE TABLE IF NOT EXISTS roles (
 	id SERIAL UNIQUE PRIMARY KEY,
 	name VARCHAR(65) UNIQUE
@@ -28,3 +30,58 @@ CREATE TABLE IF NOT EXISTS images (
 	path TEXT UNIQUE NOT NULL,
 	name TEXT NOT NULL
 );
+
+-- news
+
+CREATE TABLE IF NOT EXISTS news_meta (
+	id SERIAL UNIQUE NOT NULL PRIMARY KEY,
+	title TEXT,
+	description TEXT,
+	url TEXT
+);
+
+CREATE TABLE IF NOT EXISTS news_goods (
+	id SERIAL UNIQUE NOT NULL PRIMARY KEY,
+	name TEXT NOT NULL,
+	url TEXT NOT NULL,
+	news_id INT
+);
+
+CREATE TABLE IF NOT EXISTS news (
+	id SERIAL UNIQUE,
+	title TEXT NOT NULL,
+	content TEXT,
+	image TEXT,
+	date DATE,
+	meta_id INT,
+	goods INT,
+	PRIMARY KEY (id),
+	FOREIGN KEY (meta_id) REFERENCES news_meta(id),
+);
+
+-- category
+
+CREATE TABLE IF NOT EXISTS category_meta (
+	id SERIAL UNIQUE NOT NULL PRIMARY KEY,
+	title TEXT,
+	description TEXT,
+	url TEXT
+);
+
+CREATE TABLE IF NOT EXISTS category_seo (
+	id SERIAL UNIQUE NOT NULL PRIMARY KEY,
+	title TEXT,
+	content TEXT,
+	image TEXT,
+);
+
+CREATE TABLE IF NOT EXISTS category (
+	id SERIAL UNIQUE,
+	meta_id INT,
+	seo_id INT,
+	PRIMARY KEY (id),
+	FOREIGN KEY (meta_id) REFERENCES category_meta(id),
+	FOREIGN KEY (seo_id) REFERENCES category_seo(id),
+);
+
+-- main page

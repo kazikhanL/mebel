@@ -1,0 +1,76 @@
+@import "./../variables/colors";
+
+.rc-pagination {
+    margin-top: 15px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    list-style: none;
+
+    &-prev,
+    &-next {
+        border-radius: 5px;
+        padding: 10px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        cursor: pointer;
+        transition: background-color 0.3s;
+
+        svg path {
+            fill: #A8A8A9;
+            transition: stroke 0.3s;
+        }
+
+        &:hover {
+            background-color: #CED0D6;
+
+            svg path {
+                fill: black;
+            }
+        }
+    }
+
+    &-prev {
+        margin-right: 15px;
+        transform: rotate(180deg);
+    }
+
+    &-next {
+        margin-left: 15px;
+        transform: rotate(0deg);
+    }
+
+    &-item,
+    &-jump-next,
+    &-jump-prev {
+        margin: 3px;
+        padding: 8px 10px;
+        position: relative;
+        border-radius: 5px;
+
+        font-size: 16px;
+        line-height: 16px;
+
+        cursor: pointer;
+        transition: color 0.3s, background-color 0.3s;
+
+        &:hover {
+            background-color: #CED0D6;
+        }
+    }
+
+    &-item-active {
+        opacity: 1;
+        color: white;
+        background-color: $color-main;
+
+        &:hover {
+            background-color: $color-main;
+        }
+    }
+}

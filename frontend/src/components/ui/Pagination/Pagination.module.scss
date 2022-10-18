@@ -1,0 +1,29 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+
+.showMoreBtn {
+    margin: 0 auto !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: center !important;
+
+    &>p {
+        font-size: 16px;
+    }
+
+    &>button {
+        margin-left: 30px;
+    }
+}
+
+@media (max-width: 950px) {
+    .showMoreBtn {
+        flex-direction: column;
+
+        &>button {
+            margin-top: 15px;
+            margin-left: 0px;
+        }
+    }
+}

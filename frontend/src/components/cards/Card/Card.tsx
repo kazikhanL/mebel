@@ -1,3 +1,6 @@
+import Link from "next/link";
+import { useRouter } from "next/router";
+
 import styles from "./Card.module.scss";
 import CardProps from "./Card.props";
 import RubIcon from "@components/icons/Rub";
@@ -9,6 +12,7 @@ import Counter from "@components/ui/Counter";
 import useToggle from "@hooks/useToggle";
 
 const Card = ({ className = "", info }: CardProps): JSX.Element => {
+    const router = useRouter();
     const { code, name, image, disposable, pricePrefix, price, secondPrice } = info;
 
     const [hasInCart, toggleCart] = useToggle(); // temp TODO:REMOVE
@@ -23,6 +27,8 @@ const Card = ({ className = "", info }: CardProps): JSX.Element => {
     const cartButtonStyleClasses = `${styles.button} ${styles.buttonCart}`;
     const favoriteButtonStyleClasses = `${styles.button} ${styles.buttonFavorite}`;
 
+    const cardUrl = `/${router.query.catalog}/${code}`;
+
     return (
         <div className={styleClasses}>
             {hasInCart ? (
@@ -30,7 +36,7 @@ const Card = ({ className = "", info }: CardProps): JSX.Element => {
                     <DoneIcon />
                 </div>
             ) : null}
-            <div>
+            <div className={styles.wrapper}>
                 <img src={image} alt={name} width="270" height="188" />
                 <div className={styles.inner}>
                     <p className={styles.name}>{name}</p>
@@ -46,6 +52,9 @@ const Card = ({ className = "", info }: CardProps): JSX.Element => {
                         </p>
                     )}
                 </div>
+                <Link href={cardUrl} prefetch={false}>
+                    <a className={styles.link}>{name}</a>
+                </Link>
             </div>
             <div className={styles.footer}>
                 <Button
@@ -56,7 +65,9 @@ const Card = ({ className = "", info }: CardProps): JSX.Element => {
                 >
                     <HeartIcon />
                 </Button>
-                {hasInCart ? <Counter current={1} changeHandler={(i) => { console.log(i); }} /> : (
+                {hasInCart ? (
+                    <Counter current={1} changeHandler={(i) => { console.log(i); }} />
+                ) : (
                     <Button
                         borderType="none"
                         color="transparent"

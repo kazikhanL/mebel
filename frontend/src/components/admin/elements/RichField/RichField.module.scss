@@ -9,6 +9,7 @@
 .editor {
     border-top: 1px solid $color-light-gray;
     padding: 10px;
+    min-height: 150px;
 
     &>* {
         outline: none !important;

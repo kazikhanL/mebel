@@ -6,7 +6,7 @@ const CardPage = ({
     allSelections,
     findSelections,
     faq,
-    seo
+    seo,
 }: CardPageProps): JSX.Element => {
     return (
         <Layout categories={categories}>

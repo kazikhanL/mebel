@@ -5,19 +5,19 @@ import styles from "./RichField.module.scss";
 import RichFieldProps from "./RichField.props";
 import MenuBar from "./MenuBar";
 
-const RichField = (props: RichFieldProps): JSX.Element | null => {
+const RichField = ({ className = "", content, onChange }: RichFieldProps): JSX.Element | null => {
     const editor = useEditor({
         extensions: [
             StarterKit,
         ],
-        content: "<p>Hello World! 🌎️</p>",
-        onUpdate: (e) => console.log(e.editor.getHTML()),
+        content: content,
+        onUpdate: (event) => onChange(event.editor.getHTML()),
     });
 
     if (editor === null) return null;
 
     return (
-        <div className={styles.wrapper}>
+        <div className={`${styles.wrapper} ${className}`}>
             <MenuBar editor={editor} />
             <EditorContent className={styles.editor} editor={editor} />
         </div>

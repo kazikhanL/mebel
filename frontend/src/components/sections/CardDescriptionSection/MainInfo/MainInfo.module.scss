@@ -1,0 +1,49 @@
+@import "./../../../../styles/variables/fonts";
+@import "./../../../../styles/variables/colors";
+
+.prices {
+    padding: 30px 0;
+    border-bottom: 1px solid $color-light-gray;
+}
+
+.mainPrice {
+    margin-top: 15px;
+
+    font-size: 18px;
+    font-family: $ff-bold;
+
+    span {
+        margin-left: 5px;
+        color: $color-light-gray;
+        font-size: 12px;
+        font-size: $ff-regular;
+    }
+
+    .prefix {
+        margin: 0;
+    }
+}
+
+.characteristics {
+    color: $color-gray;
+    font-size: 18px;
+    line-height: 24px;
+    font-family: $ff-medium;
+}
+
+.secondPrice {
+    color: $color-gray;
+    font-size: 16px;
+    font-family: $ff-bold;
+
+    svg path {
+        fill: $color-gray;
+    }
+
+    span {
+        margin-left: 5px;
+        color: $color-light-gray;
+        font-size: 12px;
+        font-size: $ff-regular;
+    }
+}

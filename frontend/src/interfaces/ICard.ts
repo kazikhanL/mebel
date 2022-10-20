@@ -10,11 +10,11 @@ export interface IPromoCard {
 }
 
 export interface ICharacteristics {
-    length: string;
-    width: string;
-    height: string;
-    color: string;
-    material: string;
+    length: string | null;
+    width: string | null;
+    height: string | null;
+    color: string | null;
+    material: string | null;
 }
 
 export interface ICard {

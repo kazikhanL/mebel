@@ -50,7 +50,6 @@ const MenuBar = ({ className = "", editor }: MenuBarProps): JSX.Element => {
                 <button className={boldStyles} onClick={onBold}>B</button>
                 <button className={italicStyles} onClick={onItalic}>I</button>
                 <button className={strikeStyles} onClick={onStrike}>S</button>
-                <button className={strikeStyles} onClick={onStrike}>U</button>
             </div>
             <div className={styles.container}>
                 <button className={bulletListStyles} onClick={onBulletList}>ul</button>

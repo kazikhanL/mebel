@@ -1,0 +1,90 @@
+@import "./../../../../styles/variables/fonts";
+@import "./../../../../styles/variables/colors";
+
+.wrapper {
+    margin-top: 20px;
+
+    display: flex;
+    align-items: center;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.transparent {
+    border: none;
+
+    &:hover {
+        background-color: transparent;
+        border-color: transparent;
+    }
+}
+
+.add {
+    svg {
+        margin-right: 10px;
+
+        path {
+            transition: fill 0.3s;
+        }
+    }
+
+    &:hover {
+        svg path {
+            fill: white;
+        }
+    }
+}
+
+.share {
+    margin-left: 20px;
+    padding: 15px;
+    color: $color-light-gray;
+    font-family: $ff-regular;
+
+    .buttonInner {
+        width: 32px;
+        height: 32px;
+        border-radius: 6px;
+        background-color: #D9D9D9;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-right: 15px;
+
+        transition: background-color 0.3s;
+
+        scg path {
+            transition: stroke 0.3s;
+        }
+    }
+
+    &:hover {
+        color: $color-gray;
+
+        .buttonInner {
+            background-color: $color-main;
+
+            svg path {
+                stroke: white;
+            }
+        }
+    }
+}
+
+.favorite {
+    padding: 15px;
+    svg path {
+        transition: fill 0.3s;
+    }
+
+    &:hover {
+        svg path {
+            fill: $color-red;
+        }
+    }
+}

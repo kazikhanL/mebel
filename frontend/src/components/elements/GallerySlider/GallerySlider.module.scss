@@ -1,3 +1,32 @@
 @import "./../../../styles/variables/fonts";
 @import "./../../../styles/variables/colors";
 
+.wrapper {
+    ul {
+        &:last-child {
+            margin-top: 10px;
+        }
+    }
+}
+
+.bigSlide,
+.smallSlide {
+    width: 100%;
+    height: auto;
+}
+
+.bigSlide {
+    border-radius: 10px;
+}
+
+.smallSlide {
+    border-radius: 5px;
+    border: 2px solid transparent;
+    cursor: pointer;
+
+    transition: border-color 0.3s;
+}
+
+.active {
+    border-color: $color-green;
+}

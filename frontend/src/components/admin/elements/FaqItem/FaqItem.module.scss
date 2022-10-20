@@ -1,3 +1,10 @@
-@import "./../../../styles/variables/fonts";
-@import "./../../../styles/variables/colors";
+@import "./../../../../styles/variables/fonts";
+@import "./../../../../styles/variables/colors";
 
+.wrapper {
+    padding: 10px;
+    padding-top: 20px;
+    border-radius: 10px;
+    border: 1px solid $color-light-gray;
+    max-width: 900px;
+}

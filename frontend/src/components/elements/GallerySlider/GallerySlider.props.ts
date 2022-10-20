@@ -1,6 +1,6 @@
 interface GallerySliderProps {
     className?: string;
-    pathsToImages: string[];
+    images: string[];
 }
 
 export default GallerySliderProps;

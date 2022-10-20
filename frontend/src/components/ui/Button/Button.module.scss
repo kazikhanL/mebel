@@ -68,6 +68,17 @@
     }
 }
 
+.green-transparent {
+    color: $color-green;
+    border-color: $color-green;
+    background-color: transparent;
+
+    &:hover {
+        color: $color-white;
+        background-color: $color-dark-green;
+    }
+}
+
 .transparent {
     color: $color-gray;
     background-color: transparent;

@@ -1,0 +1,21 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.section {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.inner {
+    display: flex;
+    justify-content: space-between;
+}
+
+.gallery {
+    overflow: hidden;
+    flex-basis: 39%;
+}
+
+.mainInfo {
+    flex-basis: 59%;
+}

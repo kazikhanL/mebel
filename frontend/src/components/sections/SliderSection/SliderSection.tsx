@@ -13,20 +13,20 @@ const SliderSection = ({ title = "", className = "", slides }: SliderSectionProp
         mode: "free-snap",
         slides: {
             perView: 8.1,
-            spacing: 20,
+            spacing: 0,
         },
         breakpoints: {
             "(max-width: 1250px)": {
-                slides: { perView: 6.4, spacing: 20 },
+                slides: { perView: 6.4, spacing: 0 },
             },
             "(max-width: 1024px)": {
-                slides: { perView: 4.4, spacing: 20 },
+                slides: { perView: 4.4, spacing: 0 },
             },
             "(max-width: 625px)": {
-                slides: { perView: 2.8, spacing: 20 },
+                slides: { perView: 2.8, spacing: 0 },
             },
             "(max-width: 425px)": {
-                slides: { perView: 2.2, spacing: 20 },
+                slides: { perView: 2.2, spacing: 0 },
             },
         },
     });

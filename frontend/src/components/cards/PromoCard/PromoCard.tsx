@@ -11,7 +11,7 @@ const PromoCard = ({ image, title, link, className = "" }: PromoCardProps): JSX.
         <div className={cardStyleClasses}>
             <img src={image} alt={title} width="173" height="133" />
             <h3>{title}</h3>
-            <Link href={`/divan/${link}`} prefetch={false}>
+            <Link href={`/divan${link}`} prefetch={false}>
                 <a className={styles.link}>{title}</a>
             </Link>
         </div>

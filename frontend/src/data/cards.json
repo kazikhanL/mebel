@@ -21,6 +21,65 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 7,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -45,6 +104,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -69,6 +182,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -93,6 +260,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -117,6 +338,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -141,6 +416,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -165,6 +494,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -189,6 +572,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -213,6 +650,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -237,6 +728,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -261,6 +806,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -285,6 +884,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -309,6 +962,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -333,6 +1040,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -357,6 +1118,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -381,6 +1196,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -405,6 +1274,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -429,6 +1352,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -453,6 +1430,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -477,6 +1508,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -501,6 +1586,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -525,6 +1664,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -549,6 +1742,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -573,6 +1820,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     },
     {
@@ -597,6 +1898,60 @@
             "/images/card.jpg",
             "/images/card.jpg",
             "/images/card.jpg"
+        ],
+        "similarTags": [
+            {
+                "id": 1,
+                "name": "Складные стулья",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "name": "Ховер-эффект",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "name": "Красные стулья",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "name": "Стулья",
+                "url": "/"
+            }
+        ],
+        "configuration": [
+            {
+                "id": 1,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 2,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 3,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 4,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 5,
+                "image": "/images/card.jpg",
+                "url": "/"
+            },
+            {
+                "id": 6,
+                "image": "/images/card.jpg",
+                "url": "/"
+            }
         ]
     }
 ]

@@ -17,6 +17,18 @@ export interface ICharacteristics {
     material: string | null;
 }
 
+export interface ISimilarTag {
+    id: number;
+    name: string;
+    url: string;
+}
+
+export interface IConfiguration {
+    id: number;
+    image: string;
+    url: string;
+}
+
 export interface ICard {
     id: number;
     code: string;
@@ -28,4 +40,6 @@ export interface ICard {
     price: number;
     secondDayPrice: number;
     images: string[];
+    similarTags: null | ISimilarTag[]
+    configuration: null | IConfiguration[];
 }

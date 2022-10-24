@@ -2,7 +2,7 @@ import "dotenv/config";
 import jwt from "jsonwebtoken";
 import { Request, Response, NextFunction } from "express";
 
-import { SERVER_ERROR, NOT_VALID_TOKEN_ERROR, NOT_AUTHORIZATION_ERROR } from "./../constants/errors";
+import { NOT_VALID_TOKEN_ERROR, NOT_AUTHORIZATION_ERROR } from "./../constants/errors";
 
 const isAuthorization = (request: Request, response: Response, next: NextFunction): void => {
     const secret = process.env.JWT_SECRET as string;

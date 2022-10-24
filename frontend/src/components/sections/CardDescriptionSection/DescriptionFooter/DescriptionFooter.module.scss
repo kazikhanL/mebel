@@ -33,3 +33,20 @@
         margin-bottom: 13px;
     }
 }
+
+@media (max-width: 1024px) {
+    .wrapper {
+        margin-top: 20px;
+        flex-direction: column;
+
+        &>div {
+            margin-top: 30px;
+            flex-basis: 100%;
+    
+            &:first-child {
+                margin-top: 0;
+                flex-basis: 100%;
+            }
+        }
+    }   
+}

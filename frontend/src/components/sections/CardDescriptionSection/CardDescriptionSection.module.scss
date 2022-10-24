@@ -19,3 +19,20 @@
 .mainInfo {
     flex-basis: 59%;
 }
+
+
+@media (max-width: 1024px) {
+    .inner {
+        flex-direction: column;
+    }
+
+    .gallery {
+        order: -1;
+        flex-basis: 100%;
+    }
+
+    .mainInfo {
+        margin-top: 30px;
+        flex-basis: 100%;
+    }
+}

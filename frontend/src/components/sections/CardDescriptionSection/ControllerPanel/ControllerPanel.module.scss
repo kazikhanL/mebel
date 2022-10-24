@@ -88,3 +88,19 @@
         }
     }
 }
+
+@media (max-width: 524px) {
+    .wrapper {
+        
+    }   
+
+    .share {
+        padding: 10px;
+        font-size: 0;
+        margin-left: 0;
+
+        .buttonInner {
+            margin-right: 0;
+        }
+    }
+}

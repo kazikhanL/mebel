@@ -103,6 +103,18 @@
     }
 }
 
+.red {
+    background-color: $color-red;
+
+    svg path {
+        fill: white;
+    }
+
+    &:hover {
+        background-color: $color-red;
+    }
+}
+
 // disable
 
 .main.disabled {
@@ -150,6 +162,10 @@
 
 .round {
     border-radius: 50%;
+}
+
+.square {
+    border-radius: 10px;
 }
 
 .none {

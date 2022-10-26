@@ -2,8 +2,6 @@
 @import "./../../../../styles/variables/colors";
 
 .wrapper {
-    margin-top: 20px;
-
     display: flex;
     align-items: center;
 }
@@ -90,10 +88,6 @@
 }
 
 @media (max-width: 524px) {
-    .wrapper {
-        
-    }   
-
     .share {
         padding: 10px;
         font-size: 0;

@@ -5,7 +5,7 @@ const userValidationShema = Joi.object({
     login: Joi.string().min(6).max(255).required(),
     password: Joi.string().min(6).max(255).required(),
     repeatPassword: Joi.ref("password"),
-    role: Joi.number().min(1).max(3),
+    role: Joi.number().min(1).max(3).required(),
 });
 
 const userValidation = (request: Request, response: Response, next: NextFunction): void => {

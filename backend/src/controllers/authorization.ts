@@ -34,7 +34,7 @@ export const login = (request: Request, response: Response): void => {
                 return;
             }
 
-            const token = jwt.sign({ login: clientUser.login }, JWT_SECRET, { expiresIn: "10m" });
+            const token = jwt.sign({ login: clientUser.login }, JWT_SECRET, { expiresIn: "1d" });
 
             response.json({ token });
         })

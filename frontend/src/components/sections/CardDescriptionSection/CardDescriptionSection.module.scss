@@ -14,10 +14,12 @@
 .gallery {
     overflow: hidden;
     flex-basis: 39%;
+    width: 39%;
 }
 
 .mainInfo {
     flex-basis: 59%;
+    width: 59%;
 }
 
 
@@ -29,10 +31,12 @@
     .gallery {
         order: -1;
         flex-basis: 100%;
+        width: 100%;
     }
 
     .mainInfo {
         margin-top: 30px;
         flex-basis: 100%;
+        width: 100%;
     }
 }

@@ -64,21 +64,6 @@
                 "id": 4,
                 "image": "/images/card.jpg",
                 "url": "/"
-            },
-            {
-                "id": 5,
-                "image": "/images/card.jpg",
-                "url": "/"
-            },
-            {
-                "id": 6,
-                "image": "/images/card.jpg",
-                "url": "/"
-            },
-            {
-                "id": 7,
-                "image": "/images/card.jpg",
-                "url": "/"
             }
         ]
     },
@@ -140,21 +125,6 @@
             },
             {
                 "id": 3,
-                "image": "/images/card.jpg",
-                "url": "/"
-            },
-            {
-                "id": 4,
-                "image": "/images/card.jpg",
-                "url": "/"
-            },
-            {
-                "id": 5,
-                "image": "/images/card.jpg",
-                "url": "/"
-            },
-            {
-                "id": 6,
                 "image": "/images/card.jpg",
                 "url": "/"
             }
@@ -223,16 +193,6 @@
             },
             {
                 "id": 4,
-                "image": "/images/card.jpg",
-                "url": "/"
-            },
-            {
-                "id": 5,
-                "image": "/images/card.jpg",
-                "url": "/"
-            },
-            {
-                "id": 6,
                 "image": "/images/card.jpg",
                 "url": "/"
             }

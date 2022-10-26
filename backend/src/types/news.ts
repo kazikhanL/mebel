@@ -6,8 +6,18 @@ export interface NewsItem {
     content: string | null;
     image: string | null;
     date: string | null;
-    meta_id: number;
+    metaId: number;
     goods: number;
+}
+
+export interface ClientGoodsItem {
+    name: string;
+    url: string;
+}
+
+export interface IGoodsItem extends ClientGoodsItem {
+    id: number;
+    newsId: number;
 }
 
 export interface ClientNewsItem {
@@ -16,5 +26,5 @@ export interface ClientNewsItem {
     image: string | null;
     date: string | null;
     meta: ClientMeta;
-    goods: number; // todo -> obj
+    goods: ClientGoodsItem[];
 }

@@ -10,13 +10,22 @@ import AddCartIcon from "@components/icons/AddCard";
 import Button from "@components/ui/Button";
 import Counter from "@components/ui/Counter";
 import useToggle from "@hooks/useToggle";
+import { useAppDispatch, useAppSelector } from "@hooks/store";
+import { addFavorite, deleteFavorite } from "@store/favoriteSlice";
 
-const Card = ({ className = "", info }: CardProps): JSX.Element => {
+const Card = ({ className = "", info, hasInCart, hasInFavorite }: CardProps): JSX.Element => {
     const router = useRouter();
-    const { code, name, image, disposable, pricePrefix, price, secondPrice } = info;
+    const dispatch = useAppDispatch();
 
-    const [hasInCart, toggleCart] = useToggle(); // temp TODO:REMOVE
-    const [hasInFavorite, toggleFavorite] = useToggle(); // temp TODO:REMOVE
+    const { id, code, name, image, disposable, pricePrefix, price, secondPrice } = info;
+
+    const favoriteClickHandler = (): void => {
+        if (hasInFavorite) {
+            dispatch(deleteFavorite(id));
+        } else {
+            dispatch(addFavorite(info));
+        }
+    };
 
     const styleClasses = `
         ${className} 
@@ -60,7 +69,7 @@ const Card = ({ className = "", info }: CardProps): JSX.Element => {
                 <Button
                     borderType="none"
                     color="transparent"
-                    onClick={toggleFavorite}
+                    onClick={favoriteClickHandler}
                     className={favoriteButtonStyleClasses}
                 >
                     <HeartIcon />
@@ -71,7 +80,7 @@ const Card = ({ className = "", info }: CardProps): JSX.Element => {
                     <Button
                         borderType="none"
                         color="transparent"
-                        onClick={toggleCart}
+                        // onClick={() => {}}
                         className={cartButtonStyleClasses}
                     >
                         <AddCartIcon />

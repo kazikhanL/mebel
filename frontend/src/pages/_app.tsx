@@ -1,11 +1,25 @@
+import { useEffect } from "react";
 import { Provider } from "react-redux";
 import type { AppProps } from "next/app";
 import Head from "next/head";
 
 import "@styles/global.scss";
-import store from "@store/index";
+import store, { RootState } from "@store/index";
+import { updateToken } from "@store/userSlice";
 
 function MyApp({ Component, pageProps }: AppProps) {
+    useEffect(() => {
+        const STORAGE_KEY = "store";
+        const storeRawData = localStorage.getItem(STORAGE_KEY);
+        const hasStorage = storeRawData !== null;
+
+        if (hasStorage) {
+            const storeData: RootState = JSON.parse(storeRawData);
+
+            store.dispatch(updateToken(storeData.user.token));
+        }
+    }, []);
+
     return (
         <Provider store={store}>
             <Component {...pageProps}>

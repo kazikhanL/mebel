@@ -4,10 +4,8 @@ import ICatalogLink from "@interfaces/ICatalogLink";
 interface CatalogFilterPanelProps {
     className?: string;
     subCategories: ICatalogLink[];
-    
     filters: string[];
-    onChangeFilter: (filter: string) => void;
-
+    onChangeFilter: (filter: string | null) => void;
     selectOptons: SelectOption[]
     currentSelectOption: SelectOption;
     onChangeSelect: (option: SelectOption) => void;

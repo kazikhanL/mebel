@@ -1,4 +1,5 @@
 import { memo } from "react";
+import { useRouter } from "next/router";
 
 import styles from "./CatalogFilterPanel.module.scss";
 import CatalogFilterPanelProps from "./CatalogFilterPanel.props";
@@ -16,10 +17,17 @@ const CatalogFilterPanel = ({
     onChangeSelect,
     onChangeFilter,
 }: CatalogFilterPanelProps): JSX.Element => {
+    const router = useRouter();
+
+    const onAllHandler = (): void => {
+        router.push(`/${router.query.catalog as string}`, undefined, { scroll: false });
+        onChangeFilter(null);
+    };
+
     const categoriesLinks = subCategories.map((category) => (
         <ButtonLink
             key={category.id}
-            href={category.url}
+            href={`${router.query.catalog}/${category.url}`}
             className={styles.link}
             color="dark-tab"
         >
@@ -27,14 +35,21 @@ const CatalogFilterPanel = ({
         </ButtonLink>
     ));
 
-    categoriesLinks.unshift(<ButtonLink href="/" color="dark-tab" className={styles.link}>Все</ButtonLink>);
+    categoriesLinks.unshift(
+        <Button
+            color="dark-tab"
+            className={styles.link}
+            onClick={onAllHandler}
+        >
+            Все
+        </Button>);
 
     const fillterButtons = filters.map((filter) => (
         <Button
             key={filter}
             className={styles.button}
             color="dark-tab"
-            onChange={onChangeFilter.bind(this, filter)}
+            onClick={onChangeFilter.bind(this, filter)}
         >
             {filter}
         </Button>

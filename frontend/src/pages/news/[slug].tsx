@@ -1,15 +1,26 @@
-import type { GetStaticPaths, GetStaticProps } from "next";
+import type { GetStaticPaths, GetStaticProps, InferGetStaticPropsType } from "next";
 
 import Layout from "@components/Layout";
 import NewsItemSection from "@components/sections/NewsItemSection";
-import promoCatalog from "@data/promoCatalog.json";
-import newsData from "@data/news.json";
-
-import INews from "@interfaces/INews";
+import apolloClient from "@graphql/index";
+import categoriesSchema from "@graphql/categoriesSchema";
+import { getNewsSchema, newsPathsSchema } from "@graphql/newsSchemes";
+import parseNews, { getNewsPaths } from "@utilities/parse/parseNews";
+import parseCategories from "@utilities/parse/parseCategories";
 import translateTitle from "@utilities/translateTitle";
+import PromoCardProps from "@components/cards/PromoCard/PromoCard.props";
+import { InewsPage } from "@interfaces/INews";
 
 export const getStaticPaths: GetStaticPaths = async () => {
-    const paths = newsData.map((item) => item.url ? item.url : translateTitle(item.title));
+    let paths: string[] = [];
+
+    try {
+        const response = await apolloClient.query({ query: newsPathsSchema() });
+        paths = getNewsPaths(response.data.articles.data);
+    } catch {
+        paths = [];
+    }
+
     const paramsArray = paths.map((url) => ({ params: { slug: url } }));
 
     return {
@@ -18,27 +29,71 @@ export const getStaticPaths: GetStaticPaths = async () => {
     };
 };
 
-type ContextType = { item: INews | undefined };
+type PropsType = {
+    categories: PromoCardProps[],
+    item: InewsPage | undefined,
+    nextLink: InewsPage | undefined,
+    prevLink: InewsPage | undefined,
+};
 
-export const getStaticProps: GetStaticProps<ContextType> = async (context) => {
-    const currentNewsItem = newsData.find((item) => {
+export const getStaticProps: GetStaticProps<PropsType> = async (context) => {
+    let news: InewsPage[] = [];
+    let categories: PromoCardProps[] = [];
+
+    try {
+        const responseCategories = await apolloClient.query({ query: categoriesSchema() });
+        const rawData = parseCategories(responseCategories.data.categories.data);
+
+        categories = rawData.map((rawCategory) => ({
+            id: Number(rawCategory.id),
+            image: rawCategory.shortInfo.image,
+            title: rawCategory.shortInfo.name,
+            link: rawCategory.meta.url ? rawCategory.meta.url : translateTitle(rawCategory.promo.H1),
+        }));
+    } catch {
+        categories = [];
+    }
+
+    try {
+        const response = await apolloClient.query({ query: getNewsSchema() });
+        news = parseNews(response.data.articles.data);
+    } catch {
+        news = [];
+    }
+
+    const currentNewsIndex = news.findIndex((item) => {
         const url = item.url ? item.url : translateTitle(item.title);
         return url === context.params?.slug;
     });
 
+    let nextLink: undefined | InewsPage = undefined;
+    let prevLink: undefined | InewsPage = undefined;
+    let currentNewsItem: undefined | InewsPage = undefined;
+
+    if (currentNewsIndex !== -1) {
+        currentNewsItem = news[currentNewsIndex];
+        prevLink = news.at(currentNewsIndex - 1);
+        nextLink = currentNewsIndex === news.length - 1 ? news[0] : news.at(currentNewsIndex + 1);
+    }
+
     return {
-        props: { item: currentNewsItem },
+        props: {
+            categories,
+            item: currentNewsItem,
+            nextLink,
+            prevLink,
+        },
     };
 };
 
-const NewsPage = (context: ContextType): JSX.Element | null => {
-    const newsItem = context.item;
+const NewsPage = (props: InferGetStaticPropsType<typeof getStaticProps>): JSX.Element | null => {
+    const { categories, item, nextLink, prevLink } = props;
 
-    if (newsItem === undefined) return null;
+    if (item === undefined) return null;
 
     return (
-        <Layout categories={promoCatalog}>
-            <NewsItemSection info={newsItem} nextLink={newsItem} prevLink={newsItem} />
+        <Layout categories={categories}>
+            <NewsItemSection info={item} nextLink={nextLink} prevLink={prevLink} />
         </Layout>
     );
 };

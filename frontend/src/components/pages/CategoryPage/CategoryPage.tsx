@@ -20,14 +20,15 @@ const CategoryPage = ({
     seo,
     allSelections,
     findSelections,
+    currentCategory,
 }: CategoryPageProps): JSX.Element => {
     const allSelectionsSlides = allSelections.map((item: ISelection) => <SelectionPromoCard key={item.id} info={item} />);
     const findSelectionsSlides = findSelections.map((item: ISelection) => <SelectionPromoCard key={item.id} info={item} />);
 
     return (
         <Layout categories={categories}>
-            <PromoSection isMainPage {...promo} />
-            <CatalogSection />
+            <PromoSection {...promo} />
+            <CatalogSection currentCategory={currentCategory}  />
             <SliderSection title="Подборки с мебелью" slides={allSelectionsSlides} />
             <NewsPromoSection news={news} />
             <SliderSection title="Возможно вы ищите" slides={findSelectionsSlides} />

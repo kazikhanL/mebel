@@ -1,8 +1,8 @@
-import { ICard } from "@interfaces/ICard";
+import { FullCardType } from "@utilities/parse/cards/parseFullCards";
 
 interface MainInfoProps {
     className?: string;
-    info: ICard;
+    info: FullCardType;
 }
 
 export default MainInfoProps;

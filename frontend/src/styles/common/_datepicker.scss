@@ -1,0 +1,24 @@
+@import "./../variables/colors";
+
+.react-datepicker__day {
+    &:hover {
+        color: white;
+        background-color: $color-main !important;
+    }
+}
+
+.react-datepicker__day--disabled {
+    &:hover {
+        background-color: $color-light-gray !important;
+    }
+}
+
+.react-datepicker__day--keyboard-selected {
+    color: white;
+    background-color: $color-main !important;
+}
+
+.react-datepicker__day--in-selecting-range {
+    color: white;
+    background-color: $color-main !important;
+}

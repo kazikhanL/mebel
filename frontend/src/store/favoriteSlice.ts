@@ -23,8 +23,12 @@ const favoriteSlice = createSlice({
 
             state.cards.splice(index, 1);
         },
+
+        addFavoriteCardsFromLocalStore(state, action: PayloadAction<IPromoCard[]>) {
+            state.cards = action.payload; 
+        },
     },
 });
 
 export default favoriteSlice.reducer;
-export const { addFavorite, deleteFavorite } = favoriteSlice.actions;
+export const { addFavorite, deleteFavorite, addFavoriteCardsFromLocalStore } = favoriteSlice.actions;

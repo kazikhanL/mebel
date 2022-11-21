@@ -16,7 +16,7 @@ const PromoSection = ({
         ${styles.description}
         ${isMainPage ? styles.mainDescription : ""}
     `;
-    
+
     const sectionBackgroundStyles: CSSProperties = {
         backgroundImage: `url(${image})`,
         backgroundSize: "cover",
@@ -35,7 +35,7 @@ const PromoSection = ({
             <div className="container">
                 <div className={descriptionStyleClasses}>
                     <h1>{title}</h1>
-                    <p>{subTitle}</p>
+                    {subTitle ? <p>{subTitle}</p> : null}
                 </div>
             </div>
         </section>

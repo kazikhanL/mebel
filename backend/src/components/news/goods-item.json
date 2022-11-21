@@ -1,0 +1,17 @@
+{
+  "collectionName": "components_news_goods_items",
+  "info": {
+    "displayName": "GoodsItem"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

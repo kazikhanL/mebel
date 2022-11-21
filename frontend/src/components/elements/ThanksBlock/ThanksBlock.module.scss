@@ -1,0 +1,35 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.block {
+    text-align: center;
+}
+
+.titleWrapper {
+    display: flex;
+    align-items: center;
+
+    margin-bottom: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-family: $ff-bold;
+}
+
+.done {
+    margin-right: 5px;
+
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background-color: $color-green;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn {
+    margin-top: 20px;
+}

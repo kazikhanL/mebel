@@ -2,25 +2,22 @@ import { useState } from "react";
 
 import styles from "./NewsCatalog.module.scss";
 import NewsCatalogProps from "./NewsCatalog.props";
-import INews from "@interfaces/INews";
 import NewsPromoCard from "@components/cards/NewsPromoCard";
 import Button from "@components/ui/Button";
 
-// TODO: сделать пагинацию и т. д.
 const NewsCatalog = ({ className = "", news }: NewsCatalogProps): JSX.Element => {
     const DEFAULT_VISIBLE_SIZE = 12;
+    const cards = news;
 
-    const [cards, setCards] = useState<INews[]>(news);
     const [visibleSize, setVisibleSize] = useState<number>(DEFAULT_VISIBLE_SIZE);
 
-    
     const showMoreHandler = (): void => {
         setVisibleSize((prevState) => prevState + DEFAULT_VISIBLE_SIZE);
-        // fetch new cards;
     };
-    
+
     const visibleCards = cards.slice(0, visibleSize);
     const styleClasses = `container ${styles.section} ${className}`;
+    const isMultyPage = cards.length > visibleSize;
 
     return (
         <section className={styleClasses}>
@@ -32,16 +29,17 @@ const NewsCatalog = ({ className = "", news }: NewsCatalogProps): JSX.Element =>
                     </li>
                 ))}
             </ul>
-            <Button 
-                color="transparent"
-                className={styles.button}
-                onClick={showMoreHandler}
-            >
-                Показать еще
-            </Button>
+            {isMultyPage ? (
+                <Button
+                    color="transparent"
+                    className={styles.button}
+                    onClick={showMoreHandler}
+                >
+                    Показать еще
+                </Button>
+            ) : null}
         </section>
     );
 };
 
 export default NewsCatalog;
- 

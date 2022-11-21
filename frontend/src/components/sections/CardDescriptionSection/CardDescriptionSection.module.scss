@@ -8,6 +8,7 @@
 
 .inner {
     display: flex;
+    align-items: flex-start;
     justify-content: space-between;
 }
 
@@ -21,7 +22,6 @@
     flex-basis: 59%;
     width: 59%;
 }
-
 
 @media (max-width: 1024px) {
     .inner {

@@ -1,0 +1,59 @@
+{
+  "kind": "collectionType",
+  "collectionName": "categories",
+  "info": {
+    "singularName": "category",
+    "pluralName": "categories",
+    "displayName": "category",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "meta": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.meta",
+      "required": true
+    },
+    "promo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.promo",
+      "required": true
+    },
+    "seo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.seo",
+      "required": true
+    },
+    "filters": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::filter.filter"
+    },
+    "sub_categories": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::sub-category.sub-category"
+    },
+    "shortInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.short",
+      "required": true
+    },
+    "cardInfo": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.card-info",
+      "required": true
+    },
+    "for_content": {
+      "type": "string"
+    }
+  }
+}

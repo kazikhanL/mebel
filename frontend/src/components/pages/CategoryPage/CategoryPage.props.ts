@@ -4,8 +4,10 @@ import INews from "@interfaces/INews";
 import IFaq from "@interfaces/IFaq";
 import { ISeo } from "@components/sections/SeoSection/SeoSection.props";
 import { ISelection } from "@components/cards/SelectionPromoCard/SelectionPromoCard.props";
+import { CategoryPageType } from "@utilities/parse/parseCatalogSlug";
 
 interface CategoryPageProps {
+    currentCategory: CategoryPageType
     promo: PromoSectionProps;
     categories: PromoCardProps[];
     news: INews[];

@@ -3,7 +3,7 @@ interface PromoSectionProps {
     isMainPage?: boolean;
     image: string;
     title: string;
-    subTitle: string;
+    subTitle: string | null;
 }
 
 export default PromoSectionProps;

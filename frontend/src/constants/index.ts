@@ -5,4 +5,5 @@ export const ADDRESS = "Москва, Егорьевский проезд, 2";
 
 export const DOMAIN = "http//locallhost";
 
-export const SERVER = "http://localhost:7000";
+export const SERVER = "http://localhost:1337";
+export const API_GRAPHQL = "http://localhost:1337/graphql";

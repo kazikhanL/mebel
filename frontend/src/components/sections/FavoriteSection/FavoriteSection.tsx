@@ -33,7 +33,7 @@ const FavoriteSection = (): JSX.Element => {
                                 animate="animate"
                                 exit="hidden"
                             >
-                                <Card info={card} hasInFavorite />
+                                <Card info={card} />
                             </motion.li>
                         ))}
                     </AnimatePresence>

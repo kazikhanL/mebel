@@ -35,8 +35,8 @@ const NewsItemSection = ({ className = "", info, nextLink, prevLink }: NewsItemS
                 ) : null}
             </div>
             <footer>
-                <NewsPaginationLink direction="left" info={prevLink} />
-                <NewsPaginationLink direction="right" info={nextLink} />
+                {prevLink ? <NewsPaginationLink direction="left" info={prevLink} /> : null}
+                {nextLink ? <NewsPaginationLink direction="right" info={nextLink} /> : null}
             </footer>
         </section>
     );

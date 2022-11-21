@@ -17,13 +17,7 @@ const DescriptionFooter = ({ className = "", description, characteristics }: Des
             {characteristics === null ? null : (
                 <div className={styles.block}>
                     <p className={styles.title}>Характеристики</p>
-                    {characteristics.length === null ? null : (
-                        <p>
-                            ДШВ {characteristics.length}
-                            {characteristics.width ? <> x {characteristics.width}</> : null}
-                            {characteristics.height ? <> x {characteristics.height}</> : null}
-                        </p>
-                    )}
+                    {characteristics.size ? <p>ДШВ {characteristics.size}</p> : null}
                     {characteristics.color ? <p>Цвет: {characteristics.color}</p> : null}
                     {characteristics.material ? <p>Материал: {characteristics.material}</p> : null}
                 </div>

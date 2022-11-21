@@ -6,7 +6,7 @@ import FooterSection from "@components/sections/FooterSection";
 const Layout = ({ categories, children }: LayoutProps): JSX.Element => {
     return (
         <>
-            <HeaderSection />
+            <HeaderSection categories={categories} />
             <main>{children}</main>
             <FooterSection categories={categories} />
         </>

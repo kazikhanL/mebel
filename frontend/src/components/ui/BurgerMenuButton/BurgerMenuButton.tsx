@@ -3,20 +3,11 @@ import { DetailedHTMLProps, ButtonHTMLAttributes, MouseEvent } from "react";
 import styles from "./BurgerMenuButton.module.scss";
 import useToggle from "@hooks/useToggle";
 
-type Props = DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement>;
+interface Props extends DetailedHTMLProps<ButtonHTMLAttributes<HTMLButtonElement>, HTMLButtonElement> {
+    active: boolean;
+}
 
-const BurgerMenuButton = ({ className = "", onClick, ...attributes }: Props): JSX.Element => {
-    const [active, toggle] = useToggle();
-
-
-    const clickHandler = (event: MouseEvent<HTMLButtonElement>): void => {
-        toggle();
-
-        if (onClick) {
-            onClick(event);
-        }
-    };
-
+const BurgerMenuButton = ({ active, className = "", ...attributes }: Props): JSX.Element => {
     const buttonStyleClasses = `
         ${styles.button}
         ${className}
@@ -24,7 +15,7 @@ const BurgerMenuButton = ({ className = "", onClick, ...attributes }: Props): JS
     `;
 
     return (
-        <button className={buttonStyleClasses} onClick={clickHandler} {...attributes}>
+        <button className={buttonStyleClasses} {...attributes}>
             <div className={styles.menu}>
                 <svg viewBox="0 0 64 48">
                     <path d="M19,15 L45,15 C70,15 58,-2 49.0177126,7 L19,37" />

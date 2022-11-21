@@ -2,16 +2,18 @@ import Link from "next/link";
 
 import styles from "./CartPanel.module.scss";
 import CartPanelProps from "./CartPanel.props";
-
 import CartIcon from "@components/icons/Cart";
 import HeartIcon from "@components/icons/Heart";
-import useToggle from "@hooks/useToggle";
+import { useAppSelector } from "@hooks/store";
+import getTotalSum from "@utilities/getTotalSum";
+import RubIcon from "@components/icons/Rub";
 
 const CartPanel = ({ className = "" }: CartPanelProps): JSX.Element => {
-    const [active, toggle] = useToggle();
+    const cards = useAppSelector((state) => state.cart.cards);
+    const active = cards.length > 0;
 
     return (
-        <div className={`${styles.wrapper} ${className}`} onClick={toggle}>
+        <div className={`${styles.wrapper} ${className}`}>
             <Link href="/favorites" prefetch={false}>
                 <a className={styles.favorites}>
                     <HeartIcon />
@@ -20,8 +22,8 @@ const CartPanel = ({ className = "" }: CartPanelProps): JSX.Element => {
             <Link href="/cart" prefetch={false}>
                 <a className={`${styles.count} ${active ? styles.active : ""}`}>
                     <CartIcon />
-                    <span>0</span>
-                    <span className={styles.price}>1 131 280 ₽</span>
+                    <span>{cards.length}</span>
+                    <span className={styles.price}>{getTotalSum(cards)} <RubIcon /></span>
                 </a>
             </Link>
         </div>

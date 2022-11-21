@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_page_promos",
+  "info": {
+    "displayName": "Promo",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "mobilImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
+    },
+    "H1": {
+      "type": "text",
+      "required": true
+    },
+    "subTitle": {
+      "type": "string"
+    }
+  }
+}

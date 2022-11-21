@@ -188,3 +188,22 @@
         width: 100%;
     }
 }
+
+.toolTip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .cartIcon,
+    .favoriteIcon {
+        margin-right: 10px;
+
+        path {
+            fill: $color-green;
+        }
+    }
+
+    .favoriteIcon path {
+        fill: $color-red;
+    }
+}

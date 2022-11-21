@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_page_metas",
+  "info": {
+    "displayName": "Meta",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "url": {
+      "type": "string"
+    }
+  }
+}

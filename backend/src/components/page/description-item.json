@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_page_description_items",
+  "info": {
+    "displayName": "DescriptionItem",
+    "icon": "align-left"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "type": "text",
+      "required": true
+    }
+  }
+}

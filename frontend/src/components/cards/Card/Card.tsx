@@ -9,21 +9,49 @@ import HeartIcon from "@components/icons/Heart";
 import AddCartIcon from "@components/icons/AddCard";
 import Button from "@components/ui/Button";
 import Counter from "@components/ui/Counter";
-import useToggle from "@hooks/useToggle";
+import ToolTip from "@components/modals/ToolTip";
+import useControllers from "@hooks/useControllers";
+
 import { useAppDispatch, useAppSelector } from "@hooks/store";
+import { addToCart, deleteFromCart, updateCartCard } from "@store/cartSlice";
 import { addFavorite, deleteFavorite } from "@store/favoriteSlice";
 
-const Card = ({ className = "", info, hasInCart, hasInFavorite }: CardProps): JSX.Element => {
+const Card = ({ className = "", info }: CardProps): JSX.Element => {
     const router = useRouter();
     const dispatch = useAppDispatch();
 
+    const [cartToolTipIsOpen, showCartToolTip, closeCartToolTip] = useControllers();
+    const [favoriteToolTipIsOpen, showFavoriteToolTip, closeFavoriteToolTip] = useControllers();
+
     const { id, code, name, image, disposable, pricePrefix, price, secondPrice } = info;
+
+    const storeCartCards = useAppSelector((state) => state.cart.cards);
+    const storeFavoriteCards = useAppSelector((state) => state.favorites.cards);
+
+    const cartCard = storeCartCards.find((storeCard) => storeCard.id === id);
+    const hasInCart = cartCard !== undefined;
+    const hasInFavorite = storeFavoriteCards.find((storeCard) => storeCard.id === id) !== undefined;
+
 
     const favoriteClickHandler = (): void => {
         if (hasInFavorite) {
             dispatch(deleteFavorite(id));
         } else {
             dispatch(addFavorite(info));
+            showFavoriteToolTip();
+        }
+    };
+
+    const addCartHandler = (): void => {
+        dispatch(addToCart(info));
+        showCartToolTip();
+    };
+
+    const cartCouterHandler = (amout: number): void => {
+        if (amout === 0) {
+            dispatch(deleteFromCart(id));
+        } else {
+            dispatch(updateCartCard({ ...info, count: amout }));
         }
     };
 
@@ -36,7 +64,7 @@ const Card = ({ className = "", info, hasInCart, hasInFavorite }: CardProps): JS
     const cartButtonStyleClasses = `${styles.button} ${styles.buttonCart}`;
     const favoriteButtonStyleClasses = `${styles.button} ${styles.buttonFavorite}`;
 
-    const cardUrl = `/${router.query.catalog}/${code}`;
+    const cardUrl = `/${router.query.catalog}/${id}`;
 
     return (
         <div className={styleClasses}>
@@ -55,7 +83,7 @@ const Card = ({ className = "", info, hasInCart, hasInFavorite }: CardProps): JS
                         {price} <RubIcon />
                         {disposable ? null : <span> 1-ый день</span>}
                     </p>
-                    {disposable ? null : (
+                    {disposable || !secondPrice ? null : (
                         <p className={styles.secondPrice}>
                             {secondPrice} <RubIcon /> <span>со 2-го дня</span>
                         </p>
@@ -75,12 +103,12 @@ const Card = ({ className = "", info, hasInCart, hasInFavorite }: CardProps): JS
                     <HeartIcon />
                 </Button>
                 {hasInCart ? (
-                    <Counter current={1} changeHandler={(i) => { console.log(i); }} />
+                    <Counter current={cartCard.count} changeHandler={cartCouterHandler} />
                 ) : (
                     <Button
                         borderType="none"
                         color="transparent"
-                        // onClick={() => {}}
+                        onClick={addCartHandler}
                         className={cartButtonStyleClasses}
                     >
                         <AddCartIcon />
@@ -88,6 +116,14 @@ const Card = ({ className = "", info, hasInCart, hasInFavorite }: CardProps): JS
                     </Button>
                 )}
             </div>
+            <ToolTip isOpen={cartToolTipIsOpen} closeHandler={closeCartToolTip} className={styles.toolTip}>
+                <AddCartIcon className={styles.cartIcon} />
+                <p>Товар добавлен в корзину</p>
+            </ToolTip>
+            <ToolTip isOpen={favoriteToolTipIsOpen} closeHandler={closeFavoriteToolTip} className={styles.toolTip}>
+                <HeartIcon className={styles.favoriteIcon} />
+                <p>Товар добавлен в избранные</p>
+            </ToolTip>
         </div >
     );
 };

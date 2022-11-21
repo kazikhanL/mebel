@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_faq_faq_items",
+  "info": {
+    "displayName": "FaqItem",
+    "icon": "archive"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "text",
+      "required": true
+    },
+    "answer": {
+      "type": "richtext",
+      "required": true
+    }
+  }
+}

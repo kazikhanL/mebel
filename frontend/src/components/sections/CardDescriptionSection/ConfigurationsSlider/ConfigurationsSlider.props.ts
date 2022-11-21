@@ -1,8 +1,8 @@
-import { IConfiguration } from "@interfaces/ICard";
+import { CardConfigurationType } from "@utilities/parse/cards/parseFullCards";
 
 interface ConfigurationsSliderProps {
     className?: string;
-    congigurations: IConfiguration[];
+    congigurations: CardConfigurationType[];
 }
 
 export default ConfigurationsSliderProps;

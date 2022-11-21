@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cart_similar_tags",
+  "info": {
+    "displayName": "SimilarTags",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "url": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

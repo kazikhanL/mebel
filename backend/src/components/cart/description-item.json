@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_cart_description_items",
+  "info": {
+    "displayName": "descriptionItem",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "value": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

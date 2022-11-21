@@ -4,6 +4,11 @@
 .section {
     padding: 0px 0;
     background-color: $color-white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 200;
 }
 
 .wrapper {

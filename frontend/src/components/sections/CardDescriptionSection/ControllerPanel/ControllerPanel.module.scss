@@ -87,6 +87,45 @@
     }
 }
 
+.activeFavorite {
+    .favorite {
+        svg path {
+            fill: $color-red;
+        }
+    }
+}
+
+.bigCounter {
+    min-width: 178px !important;
+    input {
+        background-color: transparent !important;
+    }
+
+    button {
+        width: 51px !important;
+        height: 51px !important;
+    }
+}
+
+.toolTip {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .cartIcon,
+    .favoriteIcon {
+        margin-right: 10px;
+
+        path {
+            fill: $color-green;
+        }
+    }
+
+    .favoriteIcon path {
+        fill: $color-red;
+    }
+}
+
 @media (max-width: 524px) {
     .share {
         padding: 10px;

@@ -1,0 +1,188 @@
+@import "./../../../styles/variables/fonts";
+@import "./../../../styles/variables/colors";
+
+.section {
+    padding-top: 120px;
+    padding-bottom: 70px;
+    min-height: 60vh;
+}
+
+.wrapper {
+    margin-top: 40px;
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+.list {
+    flex-basis: 70%;
+
+    li {
+        margin: 15px 0;
+
+        &:first-child {
+            margin-top: 0;
+        }
+    }
+}
+
+.aside {
+    padding: 20px;
+    min-width: 270px;
+
+    flex-basis: 25%;
+    border-radius: 20px;
+    background-color: white;
+}
+
+.asideTitle {
+    color: $color-light-gray;
+    font-size: 13px !important;
+    font-family: $ff-regular !important;
+    margin-bottom: 3px;
+}
+
+.totalInfo {
+    p {
+        font-size: 22px;
+        font-family: $ff-bold;
+
+        display: flex;
+        align-items: center;
+    }
+
+    svg {
+        margin-left: 7px;
+        transform: scale(1.3);
+    }
+}
+
+.economInfo {
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+    .asideTitle {
+        flex-basis: 100%;
+    }
+
+    p {
+        color: $color-green;
+        font-size: 22px;
+        font-family: $ff-bold;
+
+        display: flex;
+        align-items: center;
+
+        svg {
+            margin-left: 7px;
+            transform: scale(1.3);
+
+            &:first-child {
+                path {
+                    fill: $color-green;
+                }
+            }
+        }
+
+        span {
+            margin-left: 10px;
+            color: $color-light-gray;
+        }
+    }
+}
+
+.cardsInfo {
+    margin-top: 20px;
+    display: flex;
+
+    p {
+        display: flex;
+        flex-direction: column;
+
+        &:last-child {
+            margin-left: 20px;
+        }
+
+        span {
+            margin-top: 7px;
+
+            font-size: 22px;
+            color: black;
+            font-family: $ff-bold;
+        }
+    }
+}
+
+.timeInfo {
+    margin-top: 20px;
+}
+
+.datePicker {
+    padding: 8px;
+
+    display: block;
+    width: 100%;
+    height: 40px;
+    border-radius: 30px;
+    border: 1px solid $color-main;
+}
+
+.selectedDay {
+    background-color: $color-main !important;
+}
+
+.orderBtn {
+    margin-top: 10px;
+    width: 100% !important;
+}
+
+
+@media (max-width: 1124px) {
+    .aside {
+        position: fixed;
+        bottom: 0;
+        left: 50%;
+        transform: translateX(-50%);
+
+        padding-top: 40px;
+        width: 100%;
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+
+        box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.13);
+        border-radius: 20px 20px 0px 0px;
+
+        &>* {
+            margin-top: 0;
+        }
+    }
+
+    .list {
+        flex-basis: 100%;
+    }
+
+    .orderBtn {
+        position: absolute !important;
+        top: -25px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: min-content !important;
+        white-space: nowrap;
+
+        &:active {
+            transform: translateX(-50%) scale(0.9);
+        }
+    }
+
+    .cardsInfo {
+        display: none;
+    }
+
+    .economInfo {
+        display: none;
+    }
+}

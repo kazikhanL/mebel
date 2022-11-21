@@ -14,4 +14,12 @@ interface INews {
     goods: IGoodsItem[];
 }
 
+export interface InewsPage extends INews {
+    meta: {
+        title: string | null;
+        description: string | null;
+        url: string | null
+    };
+}
+
 export default INews;

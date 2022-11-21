@@ -6,13 +6,15 @@ export interface IPromoCard {
     disposable: boolean;
     pricePrefix: string | null;
     price: number;
-    secondPrice: number;
+    secondPrice: number | null;
+}
+
+export interface IStoreCard extends IPromoCard {
+    count: number;
 }
 
 export interface ICharacteristics {
-    length: string | null;
-    width: string | null;
-    height: string | null;
+    size: string | null;
     color: string | null;
     material: string | null;
 }
@@ -35,10 +37,10 @@ export interface ICard {
     name: string;
     disposable: boolean;
     characteristics: ICharacteristics;
-    description: string
+    description: string | null,
     pricePrefix: null | string;
     price: number;
-    secondDayPrice: number;
+    secondDayPrice: number | null;
     images: string[];
     similarTags: null | ISimilarTag[]
     configuration: null | IConfiguration[];

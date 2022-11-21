@@ -8,18 +8,18 @@ const MainInfo = ({ className = "", info }: MainInfoProps): JSX.Element => {
             <p>Артикул: {info.code}</p>
             <h1>{info.name}</h1>
             <p className={styles.characteristics}>
-                {info.characteristics.color ? info.characteristics.color : null}
-                {info.characteristics.material ? `, ${info.characteristics.material}` : null}
+                {info.color ? info.color : null}
+                {info.material ? `, ${info.material}` : null}
             </p>
             <div className={styles.prices}>
                 <p className={styles.mainPrice}>
-                    {info.pricePrefix ? <span className={styles.prefix}>{info.pricePrefix}</span> : null}
-                    {info.price} <RubIcon />
+                    {info.price.pricePrefix ? <span className={styles.prefix}>{info.price.pricePrefix}</span> : null}
+                    {info.price.price} <RubIcon />
                     {info.disposable ? null : <span> 1-ый день</span>}
                 </p>
                 {info.disposable ? null : (
                     <p className={styles.secondPrice}>
-                        {info.secondDayPrice} <RubIcon /> <span>со 2-го дня</span>
+                        {info.price.secondPrice} <RubIcon /> <span>со 2-го дня</span>
                     </p>
                 )}
             </div>

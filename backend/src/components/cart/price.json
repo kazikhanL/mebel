@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_cart_prices",
+  "info": {
+    "displayName": "Price",
+    "icon": "american-sign-language-interpreting"
+  },
+  "options": {},
+  "attributes": {
+    "priceDescription": {
+      "type": "string"
+    },
+    "price": {
+      "type": "decimal",
+      "required": true
+    },
+    "secondDayPrice": {
+      "type": "decimal"
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@mixin scroll {
+    // fireFox
+    scrollbar-color: #B7B4AE #F5F3EE;
+    scrollbar-width: thin;
+
+    // chrome
+    &::-webkit-scrollbar {
+        width: 10px;
+        background-color: #F5F3EE;
+    }
+    &::-webkit-scrollbar-button {
+        display: none;
+    }
+    &::-webkit-scrollbar-track {
+        margin: 0 3px;
+        background-color: #F5F3EE;
+    }
+    &::-webkit-scrollbar-thumb {
+        background: #B7B4AE;
+        border-radius: 5px;
+    }
+}

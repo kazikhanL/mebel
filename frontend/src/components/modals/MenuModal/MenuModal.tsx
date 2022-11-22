@@ -15,7 +15,7 @@ const MenuModal = ({
     const transition: Transition = { duration: 0.7 };
     const variants: Variants = {
         initial: { top: -300 },
-        animate: { top: 50 },
+        animate: { top: 60 },
     };
 
     return (

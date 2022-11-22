@@ -8,6 +8,13 @@
 @import "./variables/fonts";
 @import "./variables/colors";
 
+@import "./mixins/scroll";
+
+html {
+    margin-right: calc(-1*(100vw - 100%));
+
+    @include scroll;
+}
 
 body {
     overflow-x: hidden;
@@ -16,10 +23,7 @@ body {
     color: $color-black;
     font-size: 16px;
     font-family: $ff-regular;
-}
 
-main {
-    margin-right: calc(-1*(100vw - 100%));
 }
 
 .keen-slider__slide {

@@ -1,5 +1,6 @@
 @import "./../../../styles/variables/fonts";
 @import "./../../../styles/variables/colors";
+@import "./../../../styles/mixins/scroll";
 
 .wrapper {
     padding: 35px 20px;
@@ -18,6 +19,8 @@
     top: 50px;
     left: 50%;
     transform: translateX(-50%);
+
+    @include scroll;
 }
 
 .inner {

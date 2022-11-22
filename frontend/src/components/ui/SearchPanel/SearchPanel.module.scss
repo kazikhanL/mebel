@@ -22,3 +22,24 @@
     right: 15px;
     transform: translateY(-50%);
 }
+
+.list {
+    position: absolute;
+    top: 120%;
+    left: 0;
+    z-index: -1;
+    width: 100%;
+    max-height: 310px;
+    overflow: auto;
+    background-color: white;
+    border-radius: 0px 0px 20px 20px;
+
+    overflow: auto;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+
+    &::-webkit-scrollbar {
+        width: 0;
+        height: 0;
+    }
+}

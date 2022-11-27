@@ -9,7 +9,9 @@ const getSearchSchema = (search: string): DocumentNode => {
                     or: [
                         { code:{ eq: "${search}"} }
                         { name: { startsWith: "${search}" } }
-                        { search: { containsi: "${search}" } }
+                        { search: { containsi: "${search}" } },
+                        { search: { containsi: "${search.toLowerCase()}" } },
+                        { search: { containsi: "${search[0].toUpperCase() + search.slice(1)}" } },
                     ]
                 }
             ) {
